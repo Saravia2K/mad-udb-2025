@@ -1,5 +1,5 @@
 import CountdownItem from "./item";
-import useDateCountdown from "@/hooks/useDateCountdown";
+import useDateCountdown from "@/hooks/use-date-countdown";
 
 export default function Countdown() {
   const { days, hours, minutes, seconds } = useDateCountdown(
