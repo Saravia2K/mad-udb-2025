@@ -7,6 +7,7 @@ import AdditionalInformation from "@/components/features/home/additional-informa
 import fondoContadorDesktop from "@/assets/images/fondo_contador_desktop.webp";
 import logo from "@/assets/images/logo_mad_transparente_dos.webp";
 import prismaDsgn from "@/assets/images/prisma-dsgn.svg";
+import Decorations from "@/components/features/home/decorations";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -18,18 +19,20 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <main
-      className="absolute h-screen w-screen bg-cover"
+      className="relative top-0 left-0 h-screen w-screen overflow-hidden bg-cover"
       style={{ backgroundImage: `url(${fondoContadorDesktop})` }}
     >
-      <img src={logo} alt="MAD Logo" className="m-auto mt-25 w-200" />
-      <img
-        src={prismaDsgn}
-        alt="PRISMA/DSGN"
-        className="m-auto mt-[-3.5%] h-auto w-75"
-      />
-      <Countdown />
-      <DateChip />
-      <AdditionalInformation />
+      <Decorations>
+        <img src={logo} alt="MAD Logo" className="m-auto w-200 pt-25" />
+        <img
+          src={prismaDsgn}
+          alt="PRISMA/DSGN"
+          className="m-auto mt-[-3.5%] h-auto w-75"
+        />
+        <Countdown />
+        <DateChip />
+        <AdditionalInformation />
+      </Decorations>
     </main>
   );
 }
