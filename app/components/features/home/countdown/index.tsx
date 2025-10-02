@@ -3,7 +3,7 @@ import useDateCountdown from "@/hooks/useDateCountdown";
 
 export default function Countdown() {
   const { days, hours, minutes, seconds } = useDateCountdown(
-    "2025-10-15T17:00:00",
+    "2025-10-13T17:00:00",
   );
 
   return (
