@@ -4,11 +4,14 @@
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "dev": "react-router dev",
+    "dev": "react-router dev --host",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.3",
     "@react-router/node": "^7.9.2",
     "@react-router/serve": "^7.9.2",
     "clsx": "^2.1.1",

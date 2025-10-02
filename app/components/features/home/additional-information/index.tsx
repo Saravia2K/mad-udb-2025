@@ -6,8 +6,8 @@ import TiktokIcon from "@/components/icons/tiktok";
 
 export default function AdditionalInformation() {
   return (
-    <div className="mt-10 flex justify-center text-white">
-      <div className="flex items-center gap-4 border-r-[4px] border-solid border-r-white pr-10">
+    <div className="m-auto mt-5 flex w-fit items-center justify-center text-white max-xl:flex-col max-xl:gap-3 xl:mt-10">
+      <div className="flex items-center gap-2 border-b-2 border-solid border-b-white max-xl:justify-center max-xl:pb-2 max-lg:justify-between xl:border-r-[4px] xl:border-r-white xl:pr-10">
         <SocialNetworkButton
           icon={<LocationIcon />}
           href="https://maps.app.goo.gl/oSj8djKsvYvHtuj89"
@@ -19,7 +19,7 @@ export default function AdditionalInformation() {
           </span>
         </div>
       </div>
-      <div className="flex gap-3 pl-10">
+      <div className="flex w-full max-xl:justify-between max-lg:px-1.5 xl:gap-3 xl:pl-10">
         <SocialNetworkButton
           icon={<InstagramIcon />}
           href="https://www.instagram.com/portafoliodg.udb?igsh=MThvamZiNXRoejVlbg=="

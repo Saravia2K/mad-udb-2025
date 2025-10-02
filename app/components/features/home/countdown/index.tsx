@@ -7,7 +7,10 @@ export default function Countdown() {
   );
 
   return (
-    <div id="countdown" className="mt-7 flex justify-center gap-8">
+    <div
+      id="countdown"
+      className="mt-7 flex gap-8 max-xl:flex-col xl:justify-center"
+    >
       <CountdownItem label="Días" number={`${days}`} />
       <Separator />
       <CountdownItem label="Horas" number={hours.toString().padStart(2, "0")} />
@@ -26,7 +29,7 @@ export default function Countdown() {
 }
 
 const Separator = () => (
-  <div className="flex flex-col justify-center gap-3 text-9xl text-white">
+  <div className="hidden justify-center gap-3 text-9xl text-white xl:flex xl:flex-col">
     <div className="size-5 rounded-full bg-white"></div>
     <div className="size-5 rounded-full bg-white"></div>
   </div>

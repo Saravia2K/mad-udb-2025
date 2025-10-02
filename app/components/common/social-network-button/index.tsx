@@ -7,7 +7,11 @@ export default function SocialNetworkButton({
   href,
 }: SocialNetworkButtonProps) {
   return (
-    <a className="social-network-button" href={href} target="_blank">
+    <a
+      className="social-network-button size-10.5 p-2 xl:size-14 xl:p-2.5"
+      href={href}
+      target="_blank"
+    >
       {icon}
     </a>
   );
