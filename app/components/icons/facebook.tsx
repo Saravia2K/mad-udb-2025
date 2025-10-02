@@ -20,9 +20,9 @@ export default function FacebookIcon() {
           y2="37.6358"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5E5E5" />
-          <stop offset="0.349171" stop-color="#984BFA" />
-          <stop offset="0.649038" stop-color="#601FFF" />
+          <stop stopColor="#E5E5E5" />
+          <stop offset="0.349171" stopColor="#984BFA" />
+          <stop offset="0.649038" stopColor="#601FFF" />
         </linearGradient>
       </defs>
     </svg>
