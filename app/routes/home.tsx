@@ -2,6 +2,7 @@ import type { Route } from "./+types/home";
 
 import Countdown from "@/components/features/home/countdown";
 import DateChip from "@/components/features/home/date-chip";
+import AdditionalInformation from "@/components/features/home/additional-information";
 
 import fondoContadorDesktop from "@/assets/images/fondo_contador_desktop.webp";
 import logo from "@/assets/images/logo_mad_transparente_dos.webp";
@@ -28,6 +29,7 @@ export default function Home() {
       />
       <Countdown />
       <DateChip />
+      <AdditionalInformation />
     </main>
   );
 }

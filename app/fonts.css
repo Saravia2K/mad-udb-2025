@@ -30,3 +30,25 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Creato Display";
+  src:
+    local("Creato Display"),
+    local("Creato Display Light"),
+    url("./assets/fonts/Creato/CreatoDisplay-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Creato Display";
+  src:
+    local("Creato Display"),
+    local("Creato Display Bold"),
+    url("./assets/fonts/Creato/CreatoDisplay-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
