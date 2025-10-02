@@ -1,6 +1,7 @@
 import type { Route } from "./+types/home";
 
 import Countdown from "@/components/features/home/countdown";
+import DateChip from "@/components/features/home/date-chip";
 
 import fondoContadorDesktop from "@/assets/images/fondo_contador_desktop.webp";
 import logo from "@/assets/images/logo_mad_transparente_dos.webp";
@@ -8,7 +9,7 @@ import prismaDsgn from "@/assets/images/prisma-dsgn.svg";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
+    { title: "MAD UDB 2025" },
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
@@ -26,6 +27,7 @@ export default function Home() {
         className="m-auto mt-[-3.5%] h-auto w-75"
       />
       <Countdown />
+      <DateChip />
     </main>
   );
 }
