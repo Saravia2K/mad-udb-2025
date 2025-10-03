@@ -26,7 +26,7 @@ export default function Home() {
         <img
           src={prismaDsgn}
           alt="PRISMA/DSGN"
-          className="m-auto mt-2 h-auto w-50 lg:mt-[-8%] lg:w-65 xl:mt-[-4.5%] 2xl:mt-[-3.5%] 2xl:w-90"
+          className="m-auto mt-2 h-auto w-50 lg:mt-[-8%] lg:w-65 xl:mt-[-4.5%] 2xl:mt-[-5.5rem] 2xl:w-90"
         />
         <Countdown />
         <DateChip />
