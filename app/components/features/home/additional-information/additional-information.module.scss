@@ -23,8 +23,8 @@
     flex-direction: column;
   }
 
-  @include bp.xl {
-    margin-top: 2.5rem;
+  @include bp.lg {
+    margin-top: 3rem;
   }
 
   .location-container {
@@ -64,9 +64,6 @@
     @include bp.md {
       gap: 0.75rem;
       padding-left: 1.25rem;
-    }
-
-    @include bp.lg {
     }
 
     @include bp.max-md {
