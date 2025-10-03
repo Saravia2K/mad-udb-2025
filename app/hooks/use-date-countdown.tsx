@@ -7,9 +7,12 @@ export default function useDateCountdown(
 ) {
   const targetDate = useRef(moment(target));
   const counterInterval = useRef<NodeJS.Timeout>(undefined);
-  const [counterData, setCounterData] = useState<CounterData>(() =>
-    getCountdown(initialDate || new Date(), targetDate.current),
-  );
+  const [counterData, setCounterData] = useState<CounterData>(() => ({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  }));
 
   useEffect(() => {
     // First coutdown on initial render
