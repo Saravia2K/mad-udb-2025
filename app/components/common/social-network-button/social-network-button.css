@@ -6,10 +6,48 @@
   border-radius: 126.316px;
   background: #fff;
   box-shadow: 0 2.526px 5.053px 0 rgba(0, 0, 0, 0.2);
+  /* icon color (SVGs use currentColor) */
+  color: #e5e5e5;
+  transition:
+    color 180ms ease,
+    background 220ms ease,
+    box-shadow 220ms ease;
 }
 
 .social-network-button:hover {
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%),
-    rgba(255, 255, 255, 0.85);
+  border-radius: 100px;
+  background: linear-gradient(
+    133deg,
+    #e5e5e5 1.96%,
+    #984bfa 34.68%,
+    #601fff 62.77%
+  );
+
+  /* Glass/Botón/Color */
+  box-shadow:
+    0 4px 2px 0 rgba(255, 255, 255, 0.2) inset,
+    0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  /* icon becomes white on hover */
+  color: #ffffff;
+}
+
+/* ensure inline SVG path inherits currentColor */
+.social-network-button svg {
+  display: block;
+}
+.social-network-button svg .icon-gradient {
+  transition: opacity 180ms ease;
+  opacity: 1;
+}
+.social-network-button svg .icon-solid {
+  transition: opacity 180ms ease;
+  opacity: 0;
+  fill: currentColor;
+}
+
+.social-network-button:hover svg .icon-gradient {
+  opacity: 0;
+}
+.social-network-button:hover svg .icon-solid {
+  opacity: 1;
 }
