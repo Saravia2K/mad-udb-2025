@@ -1,0 +1,30 @@
+@use "../../../../assets/sass/breakpoints.scss" as bp;
+
+.main {
+  position: relative;
+  min-height: 100dvh;
+  height: 100dvh;
+  width: 100vw;
+  padding: 0 3rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+
+  @include bp.sm {
+    padding: 0 7.5rem;
+  }
+
+  @include bp.md {
+    padding: 0 10rem;
+  }
+
+  .bg-img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

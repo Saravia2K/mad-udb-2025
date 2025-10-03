@@ -1,0 +1,48 @@
+.decoration {
+  position: absolute;
+
+  &.top-left-circle {
+    width: 165px;
+    height: 165px;
+    transform: translate(-90%, -40%);
+    border-radius: 165px;
+    background: linear-gradient(
+      312deg,
+      rgba(254, 126, 1, 0.3) 7.37%,
+      rgba(254, 129, 1, 0.3) 37.6%,
+      rgba(255, 255, 255, 0.3) 80.92%
+    );
+    box-shadow:
+      0 0 8px 0 rgba(255, 255, 255, 0.3),
+      2px -3px 4px 0 rgba(255, 255, 255, 0.1) inset,
+      12px 3px 10px 20px rgba(182, 182, 182, 0.1) inset;
+    backdrop-filter: blur(10px);
+  }
+
+  &.bottom-right-square {
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-28deg) translate(50%, 75%);
+    border-radius: 30px;
+    background: linear-gradient(
+      21deg,
+      rgba(251, 176, 59, 0.3) 44.79%,
+      rgba(255, 95, 16, 0.3) 68.2%
+    );
+    box-shadow:
+      0 0 5px 0 rgba(255, 255, 255, 0.3),
+      0 4px 20px 12px rgba(255, 255, 255, 0.1) inset,
+      0 4px 50px 0 rgba(182, 182, 182, 0.1) inset;
+    backdrop-filter: blur(10px);
+  }
+
+  &.bottom-right-triangle {
+    width: 524.43px;
+    height: 490.588px;
+    bottom: 0;
+    right: 0;
+    transform: translate(-45%, 65%);
+  }
+}
