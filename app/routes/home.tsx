@@ -26,7 +26,7 @@ export default function Home() {
         <img
           src={prismaDsgn}
           alt="PRISMA/DSGN"
-          className="m-auto mt-2 h-auto w-50 lg:mt-[-8%] lg:w-65 xl:mt-[-4.5%] 2xl:mt-[-3.5%]"
+          className="m-auto mt-2 h-auto w-50 lg:mt-[-8%] lg:w-65 xl:mt-[-4.5%] 2xl:mt-[-3.5%] 2xl:w-90"
         />
         <Countdown />
         <DateChip />
@@ -41,6 +41,6 @@ const Logo = ({ src, responsive }: LogoProps) => (
   <img
     src={src}
     alt="MAD logo"
-    className={`m-auto w-175 pt-7 md:pt-15 lg:pt-5 ${responsive ? "lg:hidden" : "max-lg:hidden"}`}
+    className={`m-auto w-175 pt-7 md:pt-15 lg:pt-5 2xl:w-250 ${responsive ? "lg:hidden" : "max-lg:hidden"}`}
   />
 );
