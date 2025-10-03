@@ -9,7 +9,7 @@ export default function Countdown() {
   return (
     <div
       id="countdown"
-      className="mt-5 mb-15 flex max-lg:flex-col lg:mt-9 lg:items-center lg:justify-center lg:gap-7"
+      className="mt-5 mb-2 flex max-lg:flex-col lg:mt-9 lg:mb-13 lg:items-center lg:justify-center lg:gap-7"
     >
       <CountdownItem separator label="Días" number={`${days}`} />
       <CountdownItem
