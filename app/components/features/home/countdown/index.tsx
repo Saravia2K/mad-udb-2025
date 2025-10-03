@@ -9,17 +9,19 @@ export default function Countdown() {
   return (
     <div
       id="countdown"
-      className="mt-5 flex max-lg:flex-col lg:mt-6 lg:items-center lg:justify-center lg:gap-7"
+      className="mt-5 mb-12 flex max-lg:flex-col lg:mt-6 lg:items-center lg:justify-center lg:gap-7"
     >
-      <CountdownItem label="Días" number={`${days}`} />
-      <Separator />
-      <CountdownItem label="Horas" number={hours.toString().padStart(2, "0")} />
-      <Separator />
+      <CountdownItem separator label="Días" number={`${days}`} />
       <CountdownItem
+        separator
+        label="Horas"
+        number={hours.toString().padStart(2, "0")}
+      />
+      <CountdownItem
+        separator
         label="Minutos"
         number={minutes.toString().padStart(2, "0")}
       />
-      <Separator />
       <CountdownItem
         label="Segundos"
         number={seconds.toString().padStart(2, "0")}
@@ -27,10 +29,3 @@ export default function Countdown() {
     </div>
   );
 }
-
-const Separator = () => (
-  <div className="hidden justify-center gap-3 text-9xl text-white lg:flex lg:flex-col">
-    <div className="size-5 rounded-full bg-white"></div>
-    <div className="size-5 rounded-full bg-white"></div>
-  </div>
-);

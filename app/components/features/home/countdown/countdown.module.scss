@@ -2,11 +2,12 @@
 
 .item {
   margin-bottom: 1.25rem;
-  display: flex;
   color: #fff;
   border-color: #fff;
   border-bottom-width: 2px;
-  padding-bottom: 1px;
+  padding-bottom: 5px;
+  display: flex;
+  gap: 1.75rem;
 
   @include bp.md {
     padding-bottom: 0;
@@ -14,51 +15,73 @@
 
   @include bp.lg {
     border-bottom-width: 0;
-    flex-direction: column;
-    align-items: flex-end;
   }
 
   .number {
-    --font-size: 3rem;
     width: 20%;
-    display: flex;
+    display: inline-flex;
     align-items: flex-end;
+    position: relative;
 
-    font-size: var(--font-size);
-    line-height: var(--font-size);
+    font-size: 3rem;
+    line-height: 2.5rem;
     font-weight: bold;
 
     @include bp.md {
-      --font-size: 4.5rem;
+      font-size: 4.5rem;
+      line-height: 3.6rem;
       width: 23%;
     }
 
     @include bp.lg {
-      --font-size: 8rem;
+      font-size: 6.5rem;
+      line-height: 5rem;
       width: unset;
-    }
-  }
-
-  .label {
-    font-size: 1.25rem;
-    font-weight: lighter;
-    display: flex;
-    align-items: flex-end;
-    justify-content: start;
-
-    @include bp.md {
-      margin-left: 0;
-      font-size: 1.5rem;
-      padding-bottom: 0.5rem;
-    }
-
-    @include bp.lg {
-      display: block;
-      align-items: unset;
-      padding-bottom: 0;
-      width: 100%;
       text-align: center;
-      font-size: 1.875rem;
+      display: block;
+    }
+
+    .label {
+      --offset: 120%;
+
+      display: inline-flex;
+      align-items: flex-end;
+      justify-content: start;
+
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: translateX(var(--offset));
+      width: 100%;
+
+      font-size: 1.25rem;
+      font-weight: lighter;
+      line-height: 1.25rem;
+
+      @include bp.sm {
+        --offset: 100%;
+      }
+
+      @include bp.md {
+        margin-left: 0;
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+      }
+
+      @include bp.lg {
+        display: block;
+        align-items: unset;
+        right: unset;
+        left: 0;
+        transform: translateY(125%);
+
+        width: 100%;
+        padding-bottom: 0;
+
+        text-align: center;
+        font-size: 1.875rem;
+        line-height: 1.875rem;
+      }
     }
   }
 }
