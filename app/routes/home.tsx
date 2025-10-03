@@ -41,6 +41,6 @@ const Logo = ({ src, responsive }: LogoProps) => (
   <img
     src={src}
     alt="MAD logo"
-    className={`m-auto w-200 pt-7 xl:pt-15 ${responsive ? "lg:hidden" : "max-lg:hidden"}`}
+    className={`m-auto w-200 pt-7 md:pt-15 ${responsive ? "lg:hidden" : "max-lg:hidden"}`}
   />
 );
