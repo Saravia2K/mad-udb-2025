@@ -31,7 +31,7 @@
     @include bp.md {
       font-size: 4.5rem;
       line-height: 3.6rem;
-      width: 14vh;
+      width: min(14vw, 14vh);
     }
 
     @include bp.lg {
