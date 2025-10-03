@@ -9,7 +9,7 @@ export default function Countdown() {
   return (
     <div
       id="countdown"
-      className="mt-7 flex gap-8 max-xl:flex-col xl:justify-center"
+      className="mt-5 flex max-lg:flex-col lg:mt-6 lg:items-center lg:justify-center lg:gap-7"
     >
       <CountdownItem label="Días" number={`${days}`} />
       <Separator />
@@ -29,7 +29,7 @@ export default function Countdown() {
 }
 
 const Separator = () => (
-  <div className="hidden justify-center gap-3 text-9xl text-white xl:flex xl:flex-col">
+  <div className="hidden justify-center gap-3 text-9xl text-white lg:flex lg:flex-col">
     <div className="size-5 rounded-full bg-white"></div>
     <div className="size-5 rounded-full bg-white"></div>
   </div>

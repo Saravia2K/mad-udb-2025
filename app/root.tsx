@@ -8,6 +8,7 @@ import {
   ScrollRestoration,
 } from "react-router";
 import StylesProvider from "./components/providers/styles";
+import MUIThemeProvider from "./components/providers/mui-theme";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -43,7 +44,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <StylesProvider>
-      <Outlet />
+      <MUIThemeProvider>
+        <Outlet />
+      </MUIThemeProvider>
     </StylesProvider>
   );
 }
