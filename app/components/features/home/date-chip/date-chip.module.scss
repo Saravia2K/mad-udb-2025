@@ -1,0 +1,33 @@
+@use "../../../../assets/sass/breakpoints.scss" as bp;
+
+.date-chip {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 8rem;
+  border-radius: 300px;
+  padding: 0.7rem 0;
+  margin-top: 2.5rem;
+
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Creato Display";
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow:
+    0 4.78px 2.39px 0 rgba(255, 255, 255, 0.2) inset,
+    0 2.39px 4.78px 0 rgba(0, 0, 0, 0.2);
+
+  @include bp.sm {
+    font-size: 1.5rem;
+    width: 11rem;
+  }
+
+  @include bp.lg {
+    width: 12rem;
+    left: unset;
+    transform: unset;
+  }
+}

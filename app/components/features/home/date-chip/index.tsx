@@ -1,9 +1,5 @@
-import "./date-chip.css";
+import styles from "./date-chip.module.scss";
 
 export default function DateChip() {
-  return (
-    <div className="date-chip w-[60%] rounded-full py-[1rem] text-2xl sm:w-[40%] lg:w-[25%] xl:text-[2.3rem] 2xl:w-[20rem] 2xl:py-[1.5rem] 2xl:text-5xl">
-      13.Oct.2025
-    </div>
-  );
+  return <div className={styles["date-chip"]}>13.Oct.2025</div>;
 }
