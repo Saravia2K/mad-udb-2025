@@ -5,12 +5,32 @@ import styles from "./decorations.module.scss";
 
 export default function Decorations({ children }: PropsWithChildren) {
   return (
-    <Fragment>
-      <div className={clsx(styles.decoration, styles["top-left-circle"])}></div>
+    <div className="relative size-full overflow-hidden">
       <div
-        className={clsx(styles.decoration, styles["bottom-right-square"])}
+        className={clsx(
+          styles.decoration,
+          styles["desktop-top-left-square"],
+          "max-lg:hidden",
+        )}
+      ></div>
+      <div
+        className={clsx(styles.decoration, styles["shared-top-left-circle"])}
+      ></div>
+
+      <div
+        className={clsx(
+          styles.decoration,
+          styles["shared-bottom-right-square"],
+        )}
+      ></div>
+      <div
+        className={clsx(
+          styles.decoration,
+          styles["desktop-bottom-right-circle"],
+          "max-lg:hidden",
+        )}
       ></div>
       {children}
-    </Fragment>
+    </div>
   );
 }

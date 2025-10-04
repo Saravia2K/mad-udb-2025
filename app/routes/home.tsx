@@ -18,22 +18,7 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return (
-    <Main>
-      <Decorations>
-        <Logo src={logoDesktop} />
-        <Logo responsive src={logoTabletMovil} />
-        <img
-          src={prismaDsgn}
-          alt="PRISMA/DSGN"
-          className="m-auto mt-2 h-auto w-50 lg:mt-[-8%] lg:w-65 xl:mt-[-4.5%] 2xl:mt-[-5.5rem] 2xl:w-90"
-        />
-        <Countdown />
-        <DateChip />
-        <AdditionalInformation />
-      </Decorations>
-    </Main>
-  );
+  return <Main></Main>;
 }
 
 type LogoProps = { src: string; responsive?: boolean };
