@@ -26,16 +26,16 @@
     border-color: #fff;
 
     @include bp.md {
-      border-right-width: 2px;
+      border-right-width: 1px;
       padding-right: 1.25rem;
     }
 
     @include bp.xl {
-      border-right-width: 4px;
+      border-right-width: 2px;
     }
 
     @include bp.max-md {
-      border-bottom-width: 2px;
+      border-bottom-width: 1px;
       padding-bottom: 0.5rem;
     }
 
