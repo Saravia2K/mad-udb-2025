@@ -1,59 +1,65 @@
+$sm: 40rem;
+$md: 48rem;
+$lg: 64rem;
+$xl: 80rem;
+$xxl: 96rem;
+
 @mixin sm {
-  @media only screen and (min-width: 40rem) {
+  @media only screen and (min-width: $sm) {
     @content;
   }
 }
 
 @mixin md {
-  @media only screen and (min-width: 48rem) {
+  @media only screen and (min-width: $md) {
     @content;
   }
 }
 
 @mixin lg {
-  @media only screen and (min-width: 64rem) {
+  @media only screen and (min-width: $lg) {
     @content;
   }
 }
 
 @mixin xl {
-  @media only screen and (min-width: 80rem) {
+  @media only screen and (min-width: $xl) {
     @content;
   }
 }
 
 @mixin xxl {
-  @media only screen and (min-width: 96rem) {
+  @media only screen and (min-width: $xxl) {
     @content;
   }
 }
 
 @mixin max-sm {
-  @media only screen and (max-width: 39rem) {
+  @media only screen and (max-width: calc($sm - 1px)) {
     @content;
   }
 }
 
 @mixin max-md {
-  @media only screen and (max-width: 47rem) {
+  @media only screen and (max-width: calc($md - 1px)) {
     @content;
   }
 }
 
 @mixin max-lg {
-  @media only screen and (max-width: 63rem) {
+  @media only screen and (max-width: calc($lg - 1px)) {
     @content;
   }
 }
 
 @mixin max-xl {
-  @media only screen and (max-width: 79rem) {
+  @media only screen and (max-width: calc($xl - 1px)) {
     @content;
   }
 }
 
 @mixin max-xxl {
-  @media only screen and (max-width: 95rem) {
+  @media only screen and (max-width: calc($xxl - 1px)) {
     @content;
   }
 }
