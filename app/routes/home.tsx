@@ -39,7 +39,7 @@ export function meta({ loaderData }: Route.MetaArgs) {
 export async function loader({ request }: Route.LoaderArgs) {
   const url = new URL(request.url);
   return {
-    host: url.host,
+    host: `${url.protocol}//${url.host}`,
   };
 }
 
