@@ -1,14 +1,12 @@
 import type { Route } from "./+types/home";
 
-import AdditionalInformation from "@/components/features/home/additional-information";
+import Main from "@/components/features/home/main";
 import Countdown from "@/components/features/home/countdown";
+import AdditionalInformation from "@/components/features/home/additional-information";
 import DateChip from "@/components/features/home/date-chip";
 import Decorations from "@/components/features/home/decorations";
-import Main from "@/components/features/home/main";
 
-import logoTabletMovil from "@/assets/images/logo_contador_tablet_movil.webp";
-import logoDesktop from "@/assets/images/logo_mad_transparente_dos.webp";
-import prismaDsgn from "@/assets/images/prisma-dsgn.svg";
+import logoMAD from "@/assets/images/logo_mad.svg";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -18,7 +16,14 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Main></Main>;
+  return (
+    <Main>
+      <div className="flex size-full flex-col justify-center max-lg:px-48 max-md:px-15 lg:items-center">
+        <img src={logoMAD} alt="MAD - PRISMA/DSGN" className="lg:w-[20rem]" />
+        <Countdown />
+      </div>
+    </Main>
+  );
 }
 
 type LogoProps = { src: string; responsive?: boolean };
