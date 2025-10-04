@@ -11,7 +11,7 @@ import ogImage from "@/assets/images/og_mad2025_prisma.png";
 export function meta({ loaderData }: Route.MetaArgs) {
   const host = loaderData.host;
   return [
-    { title: "MAD 2025 - Prisma, creatividad que transforma" },
+    { title: "MAD 2025" },
     {
       description:
         "Un prisma convierte la luz en un universo de colores. MAD 2025, una identidad que se multiplica en ideas, talentos y formas, todas conectadas en la Universidad Don Bosco.",
