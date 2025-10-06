@@ -15,10 +15,8 @@ export default function AdditionalInformation() {
           href="https://maps.app.goo.gl/oSj8djKsvYvHtuj89"
         />
         <div className="flex flex-col font-[Creato_Display] text-xl">
-          <span className="font-light tracking-wider">Plaza</span>
-          <span className="mt-[-7.5px] font-bold tracking-wider">
-            Presidente
-          </span>
+          <span className="font-bold tracking-wider">Presidente</span>
+          <span className="mt-[-7.5px] font-light tracking-wider">Plaza</span>
         </div>
       </div>
       <div className={styles["social-networks"]}>
