@@ -1,5 +1,3 @@
-import type { Route } from "./+types/proximamente";
-
 import Main from "@/components/features/proximamente/main";
 import Countdown from "@/components/features/proximamente/countdown";
 import DateChip from "@/components/features/proximamente/date-chip";
@@ -8,8 +6,7 @@ import AdditionalInformation from "@/components/features/proximamente/additional
 import logoMAD from "@/assets/images/logo_mad.svg";
 import ogImage from "@/assets/images/og_mad2025_prisma.png";
 
-export function meta({ loaderData }: Route.MetaArgs) {
-  const host = loaderData.host;
+export function meta() {
   return [
     { title: "MAD 2025" },
     {
@@ -27,20 +24,13 @@ export function meta({ loaderData }: Route.MetaArgs) {
     },
     {
       name: "og:image",
-      content: `${host}${ogImage}`,
+      content: `https://www.madudb2025.com${ogImage}`,
     },
     {
       name: "og:type",
       content: "website",
     },
   ];
-}
-
-export async function loader({ request }: Route.LoaderArgs) {
-  const url = new URL(request.url);
-  return {
-    host: `${url.protocol}//${url.host}`,
-  };
 }
 
 export default function ProximamentePage() {
