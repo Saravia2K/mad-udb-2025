@@ -7,7 +7,7 @@ export default function XIcon() {
       viewBox="0 0 33 32"
       fill="none"
     >
-      <g clip-path="url(#clip0_2250_735)">
+      <g clipPath="url(#clip0_2250_735)">
         <path
           d="M26.3619 0H31.7313L20.0038 13.5538L33.8 32H23.0004L14.5356 20.8154L4.8615 32H-0.515512L12.0258 17.5L-1.2 0H9.87345L17.5169 10.2231L26.3619 0ZM24.4758 28.7538H27.4495L8.2535 3.07692H5.05924L24.4758 28.7538Z"
           fill="url(#paint0_linear_2250_735)"
@@ -27,9 +27,9 @@ export default function XIcon() {
           y2="31.9274"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E5E5E5" />
-          <stop offset="0.349171" stop-color="#984BFA" />
-          <stop offset="0.649038" stop-color="#601FFF" />
+          <stop stopColor="#E5E5E5" />
+          <stop offset="0.349171" stopColor="#984BFA" />
+          <stop offset="0.649038" stopColor="#601FFF" />
         </linearGradient>
         <clipPath id="clip0_2250_735">
           <rect
