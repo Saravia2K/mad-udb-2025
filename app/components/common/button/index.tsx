@@ -16,7 +16,7 @@ export default function Button({ children, sx, href }: ButtonProps) {
         fontWeight: "bold",
         borderRadius: 1000,
         fontSize: {
-          lg: "1.3rem",
+          lg: "1.2rem",
         },
         ...sx,
       }}
