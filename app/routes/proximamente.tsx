@@ -10,7 +10,8 @@ export function meta() {
   return [
     { title: "MAD 2025" },
     {
-      description:
+      name: "description",
+      content:
         "Un prisma convierte la luz en un universo de colores. MAD 2025, una identidad que se multiplica en ideas, talentos y formas, todas conectadas en la Universidad Don Bosco.",
     },
     {
