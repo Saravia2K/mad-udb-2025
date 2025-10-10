@@ -6,11 +6,13 @@ import MobileNavbar from "@/components/features/home-layout/mobile-navbar";
 
 export default function RootLayout() {
   return (
-    <main className="relative">
-      <MobileNavbar />
+    <>
       <Header />
-      <Outlet />
+      <main className="relative">
+        <MobileNavbar />
+        <Outlet />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }

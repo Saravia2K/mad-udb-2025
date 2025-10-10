@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+body {
+  color: #fff;
+  font-family: "Creato Display";
+  font-weight: lighter;
+}
+
 @theme {
   --font-sans:
     "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",

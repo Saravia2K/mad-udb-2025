@@ -4,11 +4,11 @@ import InstagramIcon from "@/components/icons/instagram";
 import LocationIcon from "@/components/icons/location";
 import TiktokIcon from "@/components/icons/tiktok";
 
-import styles from "./additional-information.module.scss";
+import styles from "./mad-location-social-networks.module.scss";
 
-export default function AdditionalInformation() {
+export default function MadLocationSocialNetworks() {
   return (
-    <div className={styles["additional-information"]}>
+    <div className={styles["mad-location-social-networks"]}>
       <div className={styles["location-container"]}>
         <SocialNetworkButton
           icon={<LocationIcon />}

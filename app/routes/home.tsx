@@ -1,5 +1,12 @@
-import { redirect } from "react-router";
+import Hero from "@/components/features/home/hero";
+import sharedMetatags from "@/lib/utils/shared-metatags";
 
-export async function loader() {
-  return redirect("/proximamente");
+export const meta = () => sharedMetatags();
+
+export default function HomePage() {
+  return (
+    <div className="w-screen overflow-x-hidden">
+      <Hero />
+    </div>
+  );
 }

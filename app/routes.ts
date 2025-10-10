@@ -8,5 +8,8 @@ import {
 export default [
   route("*", "./routes/redirect-coming-soon.tsx"),
   route("proximamente", "./routes/proximamente.tsx"),
-  layout("./routes/layout.tsx", [index("./routes/home.tsx")]),
+  layout("./routes/layout.tsx", [
+    index("./routes/home.tsx"),
+    route("patrocinadores", "./routes/patrocinadores.tsx"),
+  ]),
 ] satisfies RouteConfig;

@@ -1,0 +1,44 @@
+@use "../../../../assets/sass/breakpoints.scss" as bp;
+
+.hero {
+  width: 100%;
+  max-width: 100vw;
+  padding-top: 7rem;
+  padding-inline: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    252deg,
+    #ff7936 1.85%,
+    #e342a1 39.29%,
+    #601fff 62.8%,
+    #984bfa 77.68%,
+    #a799f8 101.68%
+  );
+
+  @include bp.lg {
+    padding-inline: 20rem;
+  }
+
+  .logo-mad-prisma {
+    padding-inline: 2rem;
+
+    @include bp.md {
+      padding-inline: 10rem;
+    }
+  }
+
+  .introduction {
+    padding-top: 2rem;
+    padding-inline: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    text-align: justify;
+    text-wrap: pretty;
+
+    @include bp.lg {
+      font-size: 1.2rem;
+    }
+  }
+}
