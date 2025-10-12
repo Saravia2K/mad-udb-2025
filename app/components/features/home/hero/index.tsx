@@ -1,4 +1,5 @@
 import MadLocationSocialNetworks from "@/components/common/mad-location-social-networks";
+import Countdown from "../countdown";
 
 import styles from "./hero.module.scss";
 import madPrismaImg from "@/assets/images/logo_mad.svg";
@@ -19,6 +20,7 @@ export default function Hero() {
         narran su evolución académica y profesional.
       </p>
       <MadLocationSocialNetworks />
+      <Countdown />
     </section>
   );
 }

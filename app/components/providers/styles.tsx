@@ -1,6 +1,7 @@
 import type { PropsWithChildren } from "react";
 
-import "@/assets/css/app.css";
+import "@/assets/css/tailwind.css";
+import "@/assets/sass/app.scss";
 import "@/assets/css/fonts.css";
 import "animate.css";
 
