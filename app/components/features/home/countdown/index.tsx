@@ -2,8 +2,8 @@ import { useRef, useState } from "react";
 import clsx from "clsx";
 
 import useDateCountdown from "@/hooks/use-date-countdown";
-import styles from "./countdown.module.scss";
 
+import styles from "./countdown.module.scss";
 import arrowDown from "@/assets/images/transparent-arrow-down.svg";
 
 const zeroStartNumber = (number: number) => number.toString().padStart(2, "0");
