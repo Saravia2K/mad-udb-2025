@@ -11,6 +11,9 @@
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
   gap: 1rem;
+  /* establish a stacking context so z-index works as expected */
+  position: relative;
+  z-index: 2;
 
   @include bp.md {
     --columns: 5;
