@@ -1,7 +1,7 @@
 import Main from "@/components/features/proximamente/main";
 import Countdown from "@/components/features/proximamente/countdown";
 import DateChip from "@/components/features/proximamente/date-chip";
-import AdditionalInformation from "@/components/features/proximamente/additional-information";
+import MadLocationSocialNetworks from "@/components/common/mad-location-social-networks";
 
 import logoMAD from "@/assets/images/logo_mad.svg";
 import ogImage from "@/assets/images/og_mad2025_prisma.png";
@@ -41,7 +41,7 @@ export default function ProximamentePage() {
         <img src={logoMAD} alt="MAD - PRISMA/DSGN" className="lg:w-[20rem]" />
         <Countdown />
         <DateChip />
-        <AdditionalInformation />
+        <MadLocationSocialNetworks />
       </div>
     </Main>
   );

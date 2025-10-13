@@ -1,0 +1,124 @@
+@use "../../../../assets/sass/breakpoints.scss" as bp;
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1rem;
+  z-index: 10;
+
+  width: 90%;
+  height: 50px;
+  border-radius: 100px;
+  padding: 0.5rem;
+
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow:
+    0 -1px 1px 0 rgba(255, 255, 255, 0.1) inset,
+    0 1px 1px 0 rgba(255, 255, 255, 0.3) inset,
+    0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+
+  .logo-mad {
+    height: 100%;
+    width: auto;
+    padding-block: 3px;
+
+    @include bp.lg {
+      margin-left: 15px;
+    }
+  }
+
+  .nav {
+    flex-grow: 1;
+    color: #fff;
+    font-family: "Creato Display";
+    font-weight: lighter;
+    padding-inline: 4rem;
+    height: 100%;
+    display: none;
+
+    @include bp.lg {
+      display: flex;
+      justify-content: center;
+    }
+
+    .nav-list {
+      display: flex;
+      position: relative;
+      height: 100%;
+
+      .nav-selector {
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 8rem;
+
+        border-radius: 100px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow:
+          0 4px 2px 0 rgba(255, 255, 255, 0.2) inset,
+          0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+      }
+
+      .nav-list-item {
+        display: flex;
+        align-items: center;
+
+        &:not(:first-of-type) {
+          margin-left: 1rem;
+        }
+
+        .nav-list-item-a {
+          width: 8rem;
+          display: block;
+          text-align: center;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+.icono-menu {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: 10px;
+
+  @include bp.lg {
+    display: none;
+  }
+
+  .menu-activador-linea {
+    height: 3px;
+    border-radius: 1000px;
+    background-color: #fff;
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+    transition: all 0.3s;
+
+    &.active {
+      &:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+      }
+    }
+  }
+}

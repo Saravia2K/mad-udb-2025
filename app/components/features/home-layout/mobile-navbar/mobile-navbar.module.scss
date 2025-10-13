@@ -1,0 +1,66 @@
+.mobile-navbar {
+  --animate-duration: 0.5s;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100dvh;
+  min-height: 700px;
+  padding-top: 8rem;
+  z-index: 10;
+  opacity: 0;
+
+  background-color: #000;
+  color: #fff;
+  font-family: "Creato Display";
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: lighter;
+
+  &.hidden {
+    pointer-events: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .menu-item {
+      &.active {
+        text-decoration: underline;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .phrase {
+    margin-top: 8rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+
+  .social-networks {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      svg {
+        scale: 0.7;
+      }
+    }
+  }
+}
