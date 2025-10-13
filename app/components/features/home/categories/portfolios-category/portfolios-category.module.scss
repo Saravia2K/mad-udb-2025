@@ -1,0 +1,74 @@
+@use "../../../../../assets/sass/breakpoints.scss" as bp;
+
+.category-item {
+  position: relative;
+  display: block;
+  font-family: Nexa;
+
+  &:first-child {
+    @include bp.md {
+      grid-column: 1 / span 2;
+    }
+  }
+
+  .luces {
+    position: absolute;
+    top: 5px;
+    left: 1rem;
+    font-size: 0.8rem;
+
+    @include bp.lg {
+      font-size: 1.2rem;
+      top: 1rem;
+      left: 2rem;
+    }
+
+    @include bp.xl {
+      font-size: 1.7rem;
+      top: 0.8rem;
+      left: 2.2rem;
+    }
+  }
+
+  .category-item-circle {
+    width: 32%;
+    position: absolute;
+    top: -3%;
+    right: -2%;
+    aspect-ratio: 1 / 1;
+
+    @include bp.md {
+      width: 15%;
+      right: -1.4%;
+    }
+
+    @include bp.lg {
+      top: 0%;
+      right: -1%;
+    }
+  }
+
+  .label {
+    width: 100%;
+    position: absolute;
+    bottom: 0.75rem;
+
+    color: #fff;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+
+    @include bp.md {
+      font-size: 1rem;
+    }
+
+    @include bp.lg {
+      bottom: 1.25rem;
+    }
+
+    @include bp.xl {
+      font-size: 1.7rem;
+      bottom: 1.5rem;
+    }
+  }
+}

@@ -1,9 +1,13 @@
 @use "./breakpoints.scss" as bp;
 
 :root {
-  --general-x-padding: 2.5rem;
+  --general-x-padding: 1rem;
 
   @include bp.lg {
+    --general-x-padding: 3rem;
+  }
+
+  @include bp.xl {
     --general-x-padding: 5rem;
   }
 }

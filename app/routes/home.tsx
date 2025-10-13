@@ -1,3 +1,4 @@
+import Categories from "@/components/features/home/categories";
 import Hero from "@/components/features/home/hero";
 import sharedMetatags from "@/lib/utils/shared-metatags";
 
@@ -7,6 +8,7 @@ export default function HomePage() {
   return (
     <div className="w-screen overflow-x-hidden">
       <Hero />
+      <Categories />
     </div>
   );
 }
