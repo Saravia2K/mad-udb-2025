@@ -1,17 +1,21 @@
+import { useState } from "react";
+import { useSearchParams } from "react-router";
+
 import SearchInput from "@/components/common/search-input";
 import sharedMetatags from "@/lib/utils/shared-metatags";
 
 import bg from "@/assets/images/bg-perfiles-homepage.svg";
 import ProfileCard from "@/components/common/profile-card";
 import useProfiles from "@/hooks/use-profiles";
-import { useState } from "react";
 
 export const meta = () => sharedMetatags([{ title: "Portafolios | MAD 2025" }]);
 
 export default function PortafoliosPage() {
+  const [searchParams] = useSearchParams();
   const [query, setQuery] = useState("");
   const profiles = useProfiles({
     query,
+    category: searchParams.get("category") ?? undefined,
   });
 
   return (
