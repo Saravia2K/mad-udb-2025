@@ -48,7 +48,7 @@ type ButtonProps = PropsWithChildren<{
   sx?: SxProps<Theme>;
   href?: string;
   target?: string;
-  variant?: "default" | "purple";
+  variant?: keyof typeof VARIANTS;
 }>;
 
 const VARIANTS = {
@@ -60,5 +60,10 @@ const VARIANTS = {
     background:
       "linear-gradient(133deg, rgba(229, 229, 229, 0.20) 1.96%, rgba(152, 75, 250, 0.20) 34.68%, rgba(96, 31, 255, 0.20) 62.77%);",
     color: "#fff",
+  },
+  transparent: {
+    background: "rgba(0, 0, 0, 0.30)",
+    boxShadow:
+      "0 3.754px 1.877px 0 rgba(255, 255, 255, 0.20) inset, 0 1.877px 3.754px 0 rgba(0, 0, 0, 0.20)",
   },
 } satisfies { [k: string]: SxProps };
