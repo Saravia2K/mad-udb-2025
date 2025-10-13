@@ -21,7 +21,7 @@ export default function Button({
           target,
           rel: target === "_blank" ? "noopener noreferrer" : undefined,
         }
-      : { LinkComponent: Link, href }
+      : { LinkComponent: Link, to: href }
     : {};
 
   return (

@@ -11,5 +11,6 @@ export default [
   layout("./routes/layout.tsx", [
     index("./routes/home.tsx"),
     route("patrocinadores", "./routes/patrocinadores.tsx"),
+    route("portafolios", "./routes/portafolios.tsx"),
   ]),
 ] satisfies RouteConfig;

@@ -13,7 +13,9 @@ import pp from "@/assets/images/patrocinadores/logo_presidente_plaza_blanco.png"
 import tt from "@/assets/images/patrocinadores/logo_todotransfer_blanco.svg";
 
 export default function Profiles() {
-  const profiles = useProfiles(true);
+  const profiles = useProfiles({
+    random: true,
+  });
   const [currentProfiles, setCurrentProfiles] = useState(profiles);
 
   const handleSearchInputChange = (value: string) => {

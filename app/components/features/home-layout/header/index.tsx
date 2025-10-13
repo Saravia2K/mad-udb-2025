@@ -32,7 +32,10 @@ export default function Header() {
         <ul className={styles["nav-list"]}>
           <div
             className={styles["nav-selector"]}
-            style={{ left: `${9 * activeLinkPosition}rem` }}
+            style={{
+              left: `${9 * activeLinkPosition}rem`,
+              display: activeLinkPosition >= 0 ? "block" : "none",
+            }}
           ></div>
           {navLinks.map(({ text, href }) => (
             <li key={href} className={styles["nav-list-item"]}>

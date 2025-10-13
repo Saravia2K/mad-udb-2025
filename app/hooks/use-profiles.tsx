@@ -5,11 +5,24 @@ import shuffleArray from "@/lib/utils/shuffle-array";
 
 import PROFILES from "@/assets/json/profiles.json";
 
-export default function useProfiles(random?: boolean): Profile[] {
-  const profilesCpy = [...PROFILES];
-  const result = random
-    ? shuffleArray(profilesCpy)
-    : (profilesCpy.sort((a, b) => a.name.localeCompare(b.name)) as Profile[]);
+export default function useProfiles(props?: UseProfilesOptions): Profile[] {
+  return useMemo(() => {
+    const profilesCpy = [...PROFILES] as Profile[];
 
-  return useMemo(() => result, []);
+    if (props?.query) {
+      const q = props.query.toLowerCase();
+      return profilesCpy.filter((p) => p.name.toLowerCase().includes(q));
+    }
+
+    if (props?.random) {
+      return shuffleArray(profilesCpy);
+    }
+
+    return profilesCpy.sort((a, b) => a.name.localeCompare(b.name));
+  }, [props?.query ?? "", !!props?.random]);
 }
+
+type UseProfilesOptions = {
+  random?: boolean;
+  query?: string;
+};
