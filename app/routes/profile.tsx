@@ -20,6 +20,7 @@ export const meta = ({ loaderData }: Route.MetaArgs) => {
       property: "og:image",
       content: `https://madudb2025.com/images/perfiles/${loaderData.areas[0]}/${imageName}_perfil.webp`,
     },
+    { name: "og:description", content: loaderData.description },
   ]);
 };
 
