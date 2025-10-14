@@ -20,7 +20,7 @@ export default function Hero() {
         narran su evolución académica y profesional.
       </p>
       <MadLocationSocialNetworks />
-      <Countdown />
+      {/* <Countdown /> */}
     </section>
   );
 }
