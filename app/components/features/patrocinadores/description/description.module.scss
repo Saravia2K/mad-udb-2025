@@ -6,7 +6,7 @@
   font-weight: normal;
 
   .introduction {
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-inline: 2.5rem;
     padding: 1.5rem;
     padding-bottom: 5rem;
@@ -21,6 +21,11 @@
       0 4px 20px 0 rgba(255, 255, 255, 0.1) inset,
       0 4px 50px 0 rgba(182, 182, 182, 0.1) inset;
     backdrop-filter: blur(25px);
+
+    @include bp.lg {
+      margin-top: 8rem;
+      margin-inline: 4rem;
+    }
 
     h1 {
       border-bottom: 2px solid #fff;
