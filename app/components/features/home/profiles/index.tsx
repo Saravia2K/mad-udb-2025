@@ -13,18 +13,11 @@ import pp from "@/assets/images/patrocinadores/logo_presidente_plaza_blanco.png"
 import tt from "@/assets/images/patrocinadores/logo_todotransfer_blanco.svg";
 
 export default function Profiles() {
+  const [query, setQuery] = useState("");
   const profiles = useProfiles({
     random: true,
+    query,
   });
-  const [currentProfiles, setCurrentProfiles] = useState(profiles);
-
-  const handleSearchInputChange = (value: string) => {
-    setCurrentProfiles(
-      profiles.filter(
-        (p) => p.name.toLowerCase().indexOf(value.toLowerCase()) >= 0,
-      ),
-    );
-  };
 
   return (
     <section className={styles.profiles}>
@@ -38,9 +31,9 @@ export default function Profiles() {
           Conoce la esencia de PRISMA a través de los portafolios. Creatividad
           que inspira, diseña y transforma.
         </p>
-        <SearchInput onChange={handleSearchInputChange} />
+        <SearchInput onChange={setQuery} />
         <div className="xl:gridcols4 grid gap-4 md:col-span-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 xl:grid-cols-4">
-          {currentProfiles.slice(0, 12).map((p, i) => (
+          {profiles.slice(0, 12).map((p, i) => (
             <ProfileCard key={i} profile={p} />
           ))}
         </div>
