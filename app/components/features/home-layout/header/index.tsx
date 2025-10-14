@@ -56,6 +56,7 @@ export default function Header() {
             lg: "0",
           },
           height: "100%",
+          fontSize: "1rem",
         }}
       >
         Portafolios
