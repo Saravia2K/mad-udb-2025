@@ -27,7 +27,9 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <HamburgerIconMenu active={menuOpened} onClick={toggle} />
-      <img src={logoMadSolo} alt="MAD" className={styles["logo-mad"]} />
+      <Link to="/" className={styles["logo-mad"]}>
+        <img src={logoMadSolo} alt="MAD" className="h-full" />
+      </Link>
       <nav className={styles.nav}>
         <ul className={styles["nav-list"]}>
           <div
