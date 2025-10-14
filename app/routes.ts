@@ -12,6 +12,7 @@ export default [
     index("./routes/home.tsx"),
     route("patrocinadores", "./routes/patrocinadores.tsx"),
     route("portafolios", "./routes/portafolios.tsx"),
+    route("sobre-el-evento", "./routes/sobre-el-evento.tsx"),
     route(":profile-slug", "./routes/profile.tsx"),
   ]),
 ] satisfies RouteConfig;
