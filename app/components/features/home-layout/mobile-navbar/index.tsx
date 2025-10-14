@@ -21,10 +21,8 @@ export default function MobileNavbar() {
 
   return (
     <nav
-      className={clsx("animate__animated", styles["mobile-navbar"], {
-        animate__fadeIn: opened,
-        animate__fadeOut: !opened,
-        [`${styles.hidden}`]: !opened,
+      className={clsx(styles["mobile-navbar"], {
+        [`${styles.show}`]: opened,
       })}
     >
       <ul className={styles.menu}>
