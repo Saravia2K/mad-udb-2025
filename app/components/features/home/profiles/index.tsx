@@ -51,7 +51,9 @@ export default function Profiles() {
           visiones que se transforman en diseño. Descubre el talento que da vida
           a MAD 2025.
         </p>
-        <Button sx={{ height: "fit-content" }}>Ver portafolios</Button>
+        <Button sx={{ height: "fit-content" }} href="/portafolios">
+          Ver portafolios
+        </Button>
       </div>
       <div className={styles.patrocinadores}>
         {PATROCINADORES.map((p) => (
