@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Grupo AJE",
+    "instagram": "https://www.instagram.com/grupoaje/",
+    "facebook": "https://www.facebook.com/GrupoAJE?locale=es_LA",
+    "tiktok": "",
+    "web": "https://www.ajegroup.com/",
+    "description": "Grupo AJE es una de las compañías multinacionales más grandes de la industria de bebidas, con más de 30 años de trayectoria y presencia en más de 20 países de América Latina, Asia y África. Reconocida por su innovación y accesibilidad, ofrece un portafolio diverso de productos que llegan a millones de consumidores. En El Salvador, su compromiso se centra en impulsar el desarrollo económico, apoyar a los emprendedores y fomentar prácticas sostenibles con impacto positivo en la comunidad.",
+    "img": "logo_grupoaje_color.svg",
+    "imageSettings": {
+      "height": "60%",
+      "width": null,
+      "x": "30%",
+      "y": "15%"
+    }
+  },
+  {
+    "name": "Presidente Plaza",
+    "instagram": "https://www.instagram.com/presidenteplaza/",
+    "facebook": "https://www.facebook.com/PresidentePlaza/?locale=es_LA",
+    "tiktok": "https://www.tiktok.com/@presidenteplaza.sv",
+    "web": "https://www.presidenteplaza.com/",
+    "description": "Presidente Plaza es un complejo moderno y emblemático en la Zona Rosa de San Salvador. Con una arquitectura de vanguardia, ofrece una experiencia que integra comercios, gastronomía y espacios de entretenimiento. Su propuesta innovadora lo convierte en un referente urbano y en el punto de encuentro preferido para quienes buscan estilo, comodidad y conexión en la ciudad.",
+    "img": "logo_presidente_plaza_color.png",
+    "imageSettings": {
+      "width": "60%",
+      "height": null,
+      "x": "18%",
+      "y": "15%"
+    }
+  },
+  {
+    "name": "La Constancia",
+    "instagram": "https://www.instagram.com/laconstanciasv?igsh=eDE0cW1nN2wxeXg1",
+    "facebook": "https://www.facebook.com/LaConstanciaSV?locale=es_LA",
+    "tiktok": "https://www.tiktok.com/@laconstancia.sv?_t=ZM-90MrHiP6Nrw&_r=1",
+    "web": "https://laconstancia.com/tour-cervecero/",
+    "description": "La Constancia, con más de 115 años de historia, crea marcas que acompañan la vida de los salvadoreños. Con compromiso hacia la innovación y la sostenibilidad, somos un referente en la industria de bebidas. A través de Pilsener, Golden y Golden Extra, seguimos construyendo un futuro próspero para El Salvador, impulsando el talento local y el crecimiento económico del país. Por un futuro con más motivos para brindar.",
+    "img": "logo_laconstancia_color.svg",
+    "imageSettings": {
+      "width": "60%",
+      "height": null,
+      "x": "18%",
+      "y": "38%"
+    }
+  },
+  {
+    "name": "TodoTransfer",
+    "instagram": "https://www.instagram.com/todotransferelsalvador/",
+    "facebook": "https://www.facebook.com/SublimacionElSalvador",
+    "tiktok": "https://www.tiktok.com/@todotransfer",
+    "web": "https://www.todotransfer.net/",
+    "description": "TodoTransfer empresa líder en el mundo de la sublimación y personalización de productos promocionales, con 9 años de trayectoria en el mercado salvadoreño, 6 Sucursales a nivel nacional y la única en El Salvador en tener su propia Academia de Sublimación con más de 3,000 nuevos emprendedores certificados. El aliado perfecto para los emprendedores salvadoreños, por brindar asesoría y capacitaciones personalizadas.",
+    "img": "logo_todotransfer_color.svg",
+    "imageSettings": {
+      "width": "60%",
+      "height": null,
+      "x": "18%",
+      "y": "25%"
+    }
+  }
+]

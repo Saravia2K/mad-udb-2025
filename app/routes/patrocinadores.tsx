@@ -1,3 +1,21 @@
+import ShapesContainer from "@/components/common/shapes-container";
+import Description from "@/components/features/patrocinadores/description";
+import sharedMetatags from "@/lib/utils/shared-metatags";
+
+export const meta = () =>
+  sharedMetatags([
+    { title: "Patrocinadores | MAD 2025" },
+    { name: "description", content: SEODescriptions },
+    { name: "og:description", content: SEODescriptions },
+  ]);
+
 export default function PatrocinadoresPage() {
-  return <h1>Patrocinadores</h1>;
+  return (
+    <ShapesContainer>
+      <Description />
+    </ShapesContainer>
+  );
 }
+
+const SEODescriptions =
+  "PRISMA MAD 2025 es posible gracias al apoyo de instituciones y empresas que creen en el poder del diseño como motor de cambio. Su confianza y compromiso fortalecen este espacio de encuentro entre estudiantes y la industria creativa, impulsando nuevas oportunidades para el talento emergente. A todos nuestros patrocinadores, gracias por ser parte de esta experiencia que proyecta la creatividad hacia el futuro.";

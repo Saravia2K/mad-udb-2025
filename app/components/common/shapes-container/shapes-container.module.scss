@@ -1,0 +1,19 @@
+.shapes-container {
+  position: relative;
+  background: linear-gradient(
+    192deg,
+    #9e5cfc 22.52%,
+    #6246f8 62.63%,
+    #a394fd 83.23%
+  );
+  box-shadow: 0 -6px 20px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+
+  .bg-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
