@@ -23,9 +23,11 @@
   backdrop-filter: blur(10px);
 
   .logo-mad {
+    display: block;
     height: 100%;
-    width: auto;
+    width: fit-content;
     padding-block: 3px;
+    aspect-ratio: 740 / 218;
 
     @include bp.lg {
       margin-left: 15px;

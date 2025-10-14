@@ -12,7 +12,7 @@ export default function FAQItem(props: FAQItemProps) {
       onClick={onClick}
       className={clsx({ active }, "overflow-hidden", styles["faq-item"])}
     >
-      <div className="mb-4 grid grid-cols-[10%_1fr] items-center border-b-2 border-b-white pb-2 md:gap-2">
+      <div className="mb-4 grid grid-cols-[10%_1fr] items-center border-b-2 border-b-white pb-2 md:gap-2 lg:grid-cols-[5%_1fr]">
         <Arrow
           className="scale-50 md:scale-60 lg:scale-80"
           style={{ transform: `rotate(${active ? 0 : -90}deg)` }}

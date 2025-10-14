@@ -5,11 +5,26 @@
   display: block;
   font-family: Nexa;
 
+  &:hover {
+    svg {
+      filter: brightness(0.92);
+    }
+  }
+
+  svg {
+    -webkit-transition: filter 0.5s ease;
+    -moz-transition: filter 0.5s ease;
+    -ms-transition: filter 0.5s ease;
+    -o-transition: filter 0.5s ease;
+    transition: filter 0.5s ease;
+  }
+
   .luces {
     position: absolute;
     top: 5px;
     left: 1rem;
     font-size: 0.8rem;
+    z-index: 5;
 
     @include bp.lg {
       font-size: 1.2rem;
@@ -36,6 +51,8 @@
     width: 100%;
     position: absolute;
     bottom: 0.75rem;
+
+    z-index: 5;
 
     color: #fff;
     text-align: center;
