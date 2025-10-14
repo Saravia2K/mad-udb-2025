@@ -1,4 +1,4 @@
-import { useId, type SVGProps } from "react";
+import { useId, useState, type SVGProps } from "react";
 
 export type Color = `#${string}`;
 export interface CategoryItemBodyProps extends SVGProps<SVGSVGElement> {
@@ -18,8 +18,12 @@ export default function CategoryItemBody(props: CategoryItemBodyProps) {
     imageY = "0%",
     imageHeight = "100%",
     preserveAspectRatio = "xMidYMid slice",
+    onMouseEnter,
+    onMouseLeave,
+    style,
     ...svgProps
   } = props;
+  const [isHover, setIsHover] = useState(false);
   const aId = useId();
   const bId = useId();
 
