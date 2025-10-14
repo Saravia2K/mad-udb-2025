@@ -6,7 +6,11 @@ export const meta = () =>
   sharedMetatags([
     { title: "Patrocinadores | MAD 2025" },
     { name: "description", content: SEODescriptions },
-    { name: "og:description", content: SEODescriptions },
+    { property: "og:description", content: SEODescriptions },
+    {
+      property: "og:title",
+      content: "Patrocinadores | MAD 2025 - Prisma, creatividad que transforma",
+    },
   ]);
 
 export default function PatrocinadoresPage() {
