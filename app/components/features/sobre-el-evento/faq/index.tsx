@@ -41,7 +41,7 @@ export default function FAQ() {
           diseño, proyectando el talento joven hacia la industria.
         </p>
       </FAQItem>
-      <div className="my-4 w-full rounded-full border-1 border-white p-2 text-center font-bold">
+      <div className="my-4 w-full rounded-full border-1 border-white p-2 text-center font-bold md:my-8 md:text-2xl lg:my-12 lg:text-3xl">
         Preguntas frecuentes
       </div>
       <div>

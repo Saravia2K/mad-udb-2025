@@ -82,7 +82,7 @@ export default function ProfilePage({ loaderData }: Route.ComponentProps) {
               <InstagramIcon />
             </a>
           )}
-          <p className="pb-4">{description}</p>
+          <p className="pb-4 lg:text-2xl">{description}</p>
         </div>
         <Shape
           imageUrl={`/images/mockups/mockup2/${imageName}_trabajo2.webp`}
