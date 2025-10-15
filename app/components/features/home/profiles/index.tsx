@@ -20,12 +20,12 @@ export default function Profiles() {
   });
 
   return (
-    <section className={styles.profiles}>
-      <img
-        src={bg}
-        alt="Figuras de background"
-        className="absolute top-0 left-0 z-[-1] block h-full w-auto"
-      />
+    <section
+      className={styles.profiles}
+      style={{
+        backgroundImage: `url(${bg}), linear-gradient(199deg,#9e5cfc 5.17%,#6246f8 50%,#a394fd 94.83%)`,
+      }}
+    >
       <div className={styles["profiles-container"]}>
         <p className="mb-4 text-justify font-normal lg:text-[1.25rem]">
           Conoce la esencia de PRISMA a través de los portafolios. Creatividad
