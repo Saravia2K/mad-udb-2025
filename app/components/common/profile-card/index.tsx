@@ -4,17 +4,18 @@ import MainShape from "./main-shape";
 
 import styles from "./profile-card.module.scss";
 import CATEGORIES from "@/assets/json/categories.json";
+import FALLBACKS from "@/assets/json/fallbacks.json";
+import getPublicImageURL from "@/lib/utils/get-public-image-url";
 
 export default function ProfileCard({ profile }: ProfileCardProps) {
   const mainArea = profile.areas[0];
   const imagesName = `${profile.slug.replaceAll("-", "_")}`;
 
+  const isMockupFallback = FALLBACKS.mockups.some((m) => m == profile.slug);
   return (
     <div className={styles["profile-card"]}>
       <div className={styles["images-container"]}>
-        <MainShape
-          imageUrl={`/images/mockups/mockup1/${imagesName}_trabajo1.webp`}
-        />
+        <MainShape imageUrl={getPublicImageURL(profile, "trabajo1")} />
         <img
           src={`/images/perfiles/${mainArea}/${imagesName}_perfil.webp`}
           alt="profile"

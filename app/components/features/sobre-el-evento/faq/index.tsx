@@ -47,6 +47,7 @@ export default function FAQ() {
       <div>
         {FAQS.map(({ title, content }, i) => (
           <FAQItem
+            key={title}
             title={title}
             active={currentActive == i + 1}
             onClick={() => handleFAQItemClick(i + 1)}
