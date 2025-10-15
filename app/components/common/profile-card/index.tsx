@@ -22,8 +22,10 @@ export default function ProfileCard({ profile }: ProfileCardProps) {
         />
       </div>
       <div className="px-3">
-        <h3 className="text-4xl font-normal">{profile.name}</h3>
-        <h5 className="mb-2 text-2xl">{CATEGORIES[profile.areas[0]]}</h5>
+        <h3 className="text-4xl font-bold md:text-3xl">{profile.name}</h3>
+        <h5 className="mb-2 text-2xl md:text-xl">
+          {CATEGORIES[profile.areas[0]]}
+        </h5>
         <div className="grid grid-cols-2 gap-4">
           <Button href={profile.flipbook} target="_blank">
             Portafolio
