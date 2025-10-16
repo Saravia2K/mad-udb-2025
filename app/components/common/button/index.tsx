@@ -1,7 +1,7 @@
 import type { PropsWithChildren } from "react";
+import { Link } from "react-router";
 import { Button as MUIButton, type SxProps } from "@mui/material";
 import type { Theme } from "@mui/material/styles";
-import { Link } from "react-router";
 
 export default function Button({
   children,
@@ -9,6 +9,7 @@ export default function Button({
   href,
   target,
   variant = "default",
+  className,
 }: ButtonProps) {
   const isExternal =
     !!href && (target === "_blank" || /^https?:\/\//.test(href));
@@ -28,6 +29,7 @@ export default function Button({
     <MUIButton
       variant="contained"
       {...linkProps}
+      className={className}
       sx={{
         textTransform: "none",
         fontWeight: "bold",
@@ -49,6 +51,7 @@ type ButtonProps = PropsWithChildren<{
   href?: string;
   target?: string;
   variant?: keyof typeof VARIANTS;
+  className?: string;
 }>;
 
 const VARIANTS = {

@@ -55,6 +55,11 @@ export default function Header() {
       </nav>
       <Button
         href="/portafolios"
+        className={
+          pathname.includes("/portafolios")
+            ? styles["portfolios-active"]
+            : undefined
+        }
         sx={{
           ml: "auto",
           py: {
@@ -62,6 +67,7 @@ export default function Header() {
           },
           height: "100%",
           fontSize: "1rem",
+          fontWeight: "normal",
         }}
       >
         Portafolios
