@@ -41,7 +41,7 @@ export default function PortafoliosPage() {
         />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-6 xl:grid-cols-4">
           {profiles.map((p) => (
-            <ProfileCard key={p.name} profile={p} />
+            <ProfileCard key={p.slug} profile={p} />
           ))}
         </div>
       </div>

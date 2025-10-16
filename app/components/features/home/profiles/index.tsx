@@ -36,7 +36,7 @@ export default function Profiles() {
         <SearchInput onChange={setQuery} />
         <div className="grid gap-4 md:col-span-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 xl:grid-cols-4">
           {profiles.slice(0, 12).map((p, i) => (
-            <ProfileCard key={i} profile={p} />
+            <ProfileCard key={p.slug} profile={p} />
           ))}
         </div>
       </div>
