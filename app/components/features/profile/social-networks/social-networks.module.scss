@@ -1,0 +1,32 @@
+.social-networks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+
+  .network {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+    aspect-ratio: 1;
+    padding: 0.25rem;
+
+    font-size: 1.25rem;
+
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow:
+      0 4px 2px 0 rgba(255, 255, 255, 0.2) inset,
+      0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .email {
+    width: auto;
+    aspect-ratio: unset;
+    border-radius: 10000px;
+    padding: 0.5rem 1.25rem;
+  }
+}

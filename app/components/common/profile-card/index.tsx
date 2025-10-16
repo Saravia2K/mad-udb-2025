@@ -1,27 +1,24 @@
+import { Link } from "react-router";
+
 import type { Profile } from "@/lib/types";
 import Button from "../button";
 import MainShape from "./main-shape";
 
 import styles from "./profile-card.module.scss";
 import CATEGORIES from "@/assets/json/categories.json";
-import FALLBACKS from "@/assets/json/fallbacks.json";
 import getPublicImageURL from "@/lib/utils/get-public-image-url";
 
 export default function ProfileCard({ profile }: ProfileCardProps) {
-  const mainArea = profile.areas[0];
-  const imagesName = `${profile.slug.replaceAll("-", "_")}`;
-
-  const isMockupFallback = FALLBACKS.mockups.some((m) => m == profile.slug);
   return (
     <div className={styles["profile-card"]}>
-      <div className={styles["images-container"]}>
+      <Link to={`/${profile.slug}`} className={styles["images-container"]}>
         <MainShape imageUrl={getPublicImageURL(profile, "trabajo1")} />
         <img
           src={getPublicImageURL(profile, "perfil")}
           alt="profile"
           className={styles["profile-img"]}
         />
-      </div>
+      </Link>
       <div className="px-3">
         <h3 className="text-4xl font-bold md:text-3xl">{profile.name}</h3>
         <h5 className="mb-2 text-2xl md:text-xl">
