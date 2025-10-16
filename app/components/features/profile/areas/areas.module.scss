@@ -1,0 +1,22 @@
+@use "../../../../assets/sass/breakpoints.scss" as bp;
+
+.areas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  padding-block: 1rem;
+
+  @include bp.lg {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @include bp.lg {
+    gap: 1.25rem;
+  }
+
+  @include bp.xl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

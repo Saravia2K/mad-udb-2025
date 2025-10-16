@@ -1,0 +1,8 @@
+.information-container {
+  position: relative;
+  z-index: 3;
+  margin-inline: var(--general-x-padding);
+  margin-top: 7.5rem;
+  border-radius: 2rem;
+  background: linear-gradient(180deg, #601fff 0%, rgba(167, 153, 248, 0) 100%);
+}

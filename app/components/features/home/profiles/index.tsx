@@ -6,11 +6,13 @@ import Button from "@/components/common/button";
 import useProfiles from "@/hooks/use-profiles";
 
 import styles from "./profiles.module.scss";
+import PATROCINADORES_JSON from "@/assets/json/sponsorships.json";
 import bg from "@/assets/images/bg-perfiles-homepage.svg";
 import aje from "@/assets/images/patrocinadores/logo_grupoaje_blanco.svg";
 import lc from "@/assets/images/patrocinadores/logo_laconstancia_blanco.svg";
 import pp from "@/assets/images/patrocinadores/logo_presidente_plaza_blanco.png";
 import tt from "@/assets/images/patrocinadores/logo_todotransfer_blanco.svg";
+import { Link } from "react-router";
 
 export default function Profiles() {
   const [query, setQuery] = useState("");
@@ -20,12 +22,12 @@ export default function Profiles() {
   });
 
   return (
-    <section className={styles.profiles}>
-      <img
-        src={bg}
-        alt="Figuras de background"
-        className="absolute top-0 left-0 z-[-1] block h-full w-auto"
-      />
+    <section
+      className={styles.profiles}
+      style={{
+        backgroundImage: `url(${bg}), linear-gradient(199deg,#9e5cfc 5.17%,#6246f8 50%,#a394fd 94.83%)`,
+      }}
+    >
       <div className={styles["profiles-container"]}>
         <p className="mb-4 text-justify font-normal lg:text-[1.25rem]">
           Conoce la esencia de PRISMA a través de los portafolios. Creatividad
@@ -50,11 +52,27 @@ export default function Profiles() {
       </div>
       <div className={styles.patrocinadores}>
         {PATROCINADORES.map((p) => (
-          <img key={p} src={p} alt="Patrocinador" />
+          <Link
+            to={p.web}
+            target="_blank"
+            className="flex size-full items-center justify-center"
+          >
+            <img
+              key={p.img}
+              src={p.img}
+              className={p.className}
+              alt="Patrocinador"
+            />
+          </Link>
         ))}
       </div>
     </section>
   );
 }
 
-const PATROCINADORES = [aje, lc, pp, tt];
+const PATROCINADORES = [
+  { img: aje, className: "lg:h-[40%]", web: PATROCINADORES_JSON[0].web },
+  { img: pp, className: "lg:h-[60%]", web: PATROCINADORES_JSON[1].web },
+  { img: lc, className: "lg:h-[50%]", web: PATROCINADORES_JSON[2].web },
+  { img: tt, className: "lg:h-[50%]", web: PATROCINADORES_JSON[3].web },
+];

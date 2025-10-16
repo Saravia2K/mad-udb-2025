@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useMemo } from "react";
 import { Link, useLocation } from "react-router";
 
 import Button from "@/components/common/button";
-import HamburgerIconMenu from "./hamburger-menu-icon";
 import useMobileNavbar from "@/hooks/use-mobile-navbar";
 import useNavbarLinks from "@/hooks/use-navbar-links";
+import HamburgerIconMenu from "./hamburger-menu-icon";
 
 import styles from "./header.module.scss";
 import logoMadSolo from "@/assets/images/logo_mad_solo.svg";
@@ -13,16 +13,21 @@ export default function Header() {
   const { opened: menuOpened, toggle } = useMobileNavbar();
   const navLinks = useNavbarLinks();
   const { pathname } = useLocation();
-  const [activeLinkPosition, setActiveLinkPosition] =
-    useState(findCurrentPathIndex);
+  const activeLinkPosition = useMemo(() => {
+    if (pathname === "/") return 0;
 
-  useEffect(() => {
-    setActiveLinkPosition(findCurrentPathIndex());
+    const idx = navLinks.findIndex((nl) => {
+      if (nl.href === "/") return false; // root handled above
+      return (
+        pathname === nl.href ||
+        pathname.startsWith(`${nl.href}/`) ||
+        pathname.startsWith(`${nl.href}?`) ||
+        pathname.startsWith(nl.href)
+      );
+    });
+
+    return idx;
   }, [pathname]);
-
-  function findCurrentPathIndex() {
-    return navLinks.findIndex((nl) => nl.href == pathname);
-  }
 
   return (
     <header className={styles.header}>
@@ -50,6 +55,11 @@ export default function Header() {
       </nav>
       <Button
         href="/portafolios"
+        className={
+          pathname.includes("/portafolios")
+            ? styles["portfolios-active"]
+            : undefined
+        }
         sx={{
           ml: "auto",
           py: {
@@ -57,6 +67,7 @@ export default function Header() {
           },
           height: "100%",
           fontSize: "1rem",
+          fontWeight: "normal",
         }}
       >
         Portafolios
