@@ -50,11 +50,23 @@ export default function Profiles() {
       </div>
       <div className={styles.patrocinadores}>
         {PATROCINADORES.map((p) => (
-          <img key={p} src={p} alt="Patrocinador" />
+          <div className="flex size-full items-center justify-center">
+            <img
+              key={p.img}
+              src={p.img}
+              className={p.className}
+              alt="Patrocinador"
+            />
+          </div>
         ))}
       </div>
     </section>
   );
 }
 
-const PATROCINADORES = [aje, lc, pp, tt];
+const PATROCINADORES = [
+  { img: aje, className: "lg:h-[40%]" },
+  { img: lc, className: "lg:h-[50%]" },
+  { img: pp, className: "lg:h-[60%]" },
+  { img: tt, className: "lg:h-[50%]" },
+];
