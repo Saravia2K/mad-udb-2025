@@ -6,11 +6,13 @@ import Button from "@/components/common/button";
 import useProfiles from "@/hooks/use-profiles";
 
 import styles from "./profiles.module.scss";
+import PATROCINADORES_JSON from "@/assets/json/sponsorships.json";
 import bg from "@/assets/images/bg-perfiles-homepage.svg";
 import aje from "@/assets/images/patrocinadores/logo_grupoaje_blanco.svg";
 import lc from "@/assets/images/patrocinadores/logo_laconstancia_blanco.svg";
 import pp from "@/assets/images/patrocinadores/logo_presidente_plaza_blanco.png";
 import tt from "@/assets/images/patrocinadores/logo_todotransfer_blanco.svg";
+import { Link } from "react-router";
 
 export default function Profiles() {
   const [query, setQuery] = useState("");
@@ -50,14 +52,18 @@ export default function Profiles() {
       </div>
       <div className={styles.patrocinadores}>
         {PATROCINADORES.map((p) => (
-          <div className="flex size-full items-center justify-center">
+          <Link
+            to={p.web}
+            target="_blank"
+            className="flex size-full items-center justify-center"
+          >
             <img
               key={p.img}
               src={p.img}
               className={p.className}
               alt="Patrocinador"
             />
-          </div>
+          </Link>
         ))}
       </div>
     </section>
@@ -65,8 +71,8 @@ export default function Profiles() {
 }
 
 const PATROCINADORES = [
-  { img: aje, className: "lg:h-[40%]" },
-  { img: lc, className: "lg:h-[50%]" },
-  { img: pp, className: "lg:h-[60%]" },
-  { img: tt, className: "lg:h-[50%]" },
+  { img: aje, className: "lg:h-[40%]", web: PATROCINADORES_JSON[0].web },
+  { img: pp, className: "lg:h-[60%]", web: PATROCINADORES_JSON[1].web },
+  { img: lc, className: "lg:h-[50%]", web: PATROCINADORES_JSON[2].web },
+  { img: tt, className: "lg:h-[50%]", web: PATROCINADORES_JSON[3].web },
 ];

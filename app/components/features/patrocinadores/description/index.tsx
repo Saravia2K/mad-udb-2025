@@ -1,10 +1,12 @@
-import styles from "./description.module.scss";
-import PATROCINADORES from "@/assets/json/sponsorships.json";
+import type { ElementType } from "react";
+
 import Shape from "../shape";
 import InstagramIcon from "@/components/icons/instagram";
-import type { ElementType } from "react";
 import FacebookIcon from "@/components/icons/facebook";
 import TiktokIcon from "@/components/icons/tiktok";
+
+import styles from "./description.module.scss";
+import PATROCINADORES from "@/assets/json/sponsorships.json";
 
 export default function Description() {
   return (
