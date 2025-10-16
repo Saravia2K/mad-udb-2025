@@ -13,6 +13,10 @@
   box-shadow: 0 -6px 20px 5px rgba(0, 0, 0, 0.3);
 
   @include bp.md {
+    padding-inline: 5rem;
+  }
+
+  @include bp.xl {
     padding-inline: 20rem;
   }
 }
