@@ -8,12 +8,7 @@
     "instagram": "https://www.instagram.com/_notdanielito.pic/",
     "web": "https://danielargueta1906.wixsite.com/horizon",
     "flipbook": "https://heyzine.com/flip-book/cfe7805816.html",
-    "areas": [
-      "editorial",
-      "branding",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["editorial", "branding", "branding", "editorial"],
     "slug": "daniel-argueta"
   },
   {
@@ -23,12 +18,7 @@
     "linkedin": "www.linkedin.com/in/clara-alfaro-02106b299",
     "web": "https://clarastephany01.wixsite.com/alfarias",
     "flipbook": "https://heyzine.com/flip-book/5774242c36.html",
-    "areas": [
-      "editorial",
-      "branding",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["editorial", "branding", "branding", "editorial"],
     "slug": "clara-alfaro"
   },
   {
@@ -37,11 +27,7 @@
     "description": "Kassy Aleman es una diseñadora gráfica especializada en estrategia de redes sociales y branding. Su pasión se extiende a medios digitales como el podcast y la radiolocución, buscando la transformación de ideas en narrativas visuales. Con experiencia en fotografía de paisajes y eventos, crea diseños que conectan y dejan huella.",
     "web": "https://kassyaa26.wixsite.com/my-site-2",
     "flipbook": "https://heyzine.com/flip-book/38041246dd.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "multimedia"
-    ],
+    "areas": ["social_media", "branding", "multimedia"],
     "slug": "kassy-aleman"
   },
   {
@@ -52,26 +38,18 @@
     "linkedin": "https://www.linkedin.com/feed/",
     "web": "https://readymag.website/u655245600/5842625/",
     "flipbook": "https://heyzine.com/flip-book/2a72778bb3.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "packaging",
-      "editorial"
-    ],
+    "areas": ["branding", "social_media", "packaging", "editorial"],
     "slug": "karla-anaya"
   },
   {
     "name": "Leslie Aguilar",
     "email": "leslie.8aguilar@gmail.com",
+    "description": "Hola, soy diseñadora gráfica especializada en contenido publicitario, branding y manejo de redes. Me enfoco en crear diseños visualmente atractivos que comuniquen de manera clara y cumplan un propósito estratégico. Soy comprometida, responsable y siempre busco superar expectativas y crecer profesionalmente.",
     "behance": "https://www.behance.net/leslieaguilar7",
     "linkedin": "https://www.linkedin.com/feed/",
     "web": "https://leslie8aguilar.wixstudio.com/my-site-1",
     "flipbook": "https://online.fliphtml5.com/leslie2900/evdu/",
-    "areas": [
-      "social_media",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["social_media", "branding", "editorial"],
     "slug": "leslie-aguilar"
   },
   {
@@ -81,11 +59,7 @@
     "description": "Soy Marina Alvarenga, licenciada en Diseño Gráfico de la UDB. Me considero una persona proactiva y dedicada en los proyectos que realiza, intentando mejorar cada vez mis habilidades y calidad de ideas. He sido reconocidad con premios nacionales en animación y videoarte; además de trabajar con diferentes marcas sociales y privadas. Pongámonos en contacto y diseñemos nuevas experiencias juntos.",
     "web": "https://marportafolio2025.my.canva.site/dag0kufttbk",
     "flipbook": "https://heyzine.com/flip-book/3861c2898c.html",
-    "areas": [
-      "multimedia",
-      "ilustracion",
-      "social_media"
-    ],
+    "areas": ["multimedia", "ilustracion", "social_media"],
     "slug": "marina-alvarenga"
   },
   {
@@ -96,12 +70,7 @@
     "instagram": "https://www.instagram.com/soy_jojo._.sketch?igsh=MWIwN293eGxkcnE2cQ==",
     "web": "https://marioalvamont.wixsite.com/portafolio-2025",
     "flipbook": "https://heyzine.com/flip-book/9d3f9db95e.html#page/1",
-    "areas": [
-      "multimedia",
-      "social_media",
-      "editorial",
-      "ilustracion"
-    ],
+    "areas": ["multimedia", "social_media", "editorial", "ilustracion"],
     "slug": "mario-alvarado"
   },
   {
@@ -113,11 +82,7 @@
     "linkedin": "www.linkedin.com/in/andrea-ayala-morataya-b0208b262",
     "web": "https://alexa-ayaladesing.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/d81dd3e95a.html",
-    "areas": [
-      "branding",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["branding", "editorial", "social_media"],
     "slug": "alexandra-ayala"
   },
   {
@@ -130,11 +95,7 @@
     "instagram": "https://www.instagram.com/ana_art03?igsh=eTNrZ2R6bmRydGQ%3D&utm_source=qr",
     "web": "https://amas2801.myportfolio.com/",
     "flipbook": "https://heyzine.com/flip-book/e0aabd04eb.html",
-    "areas": [
-      "ilustracion",
-      "multimedia",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "multimedia", "social_media"],
     "slug": "ana-aguilar"
   },
   {
@@ -147,11 +108,7 @@
     "instagram": "https://www.instagram.com/olivrabarca/",
     "web": "https://atru.figma.site/",
     "flipbook": "https://heyzine.com/flip-book/c844d9cf7b.html#page/28",
-    "areas": [
-      "branding",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["branding", "uxui", "multimedia"],
     "slug": "oliver-abarca"
   },
   {
@@ -163,11 +120,7 @@
     "linkedin": "www.linkedin.com/in/angel-tamayo-b223a1226",
     "web": "https://angeltamayo.framer.website/",
     "flipbook": "https://heyzine.com/flip-book/124501d5cc.html#page/1",
-    "areas": [
-      "multimedia",
-      "social_media",
-      "branding"
-    ],
+    "areas": ["multimedia", "social_media", "branding"],
     "slug": "angel-tamayo"
   },
   {
@@ -178,12 +131,7 @@
     "behance": "https://www.behance.net/marioCr",
     "web": "https://marioalexanderc98.wixsite.com/dise",
     "flipbook": "https://heyzine.com/flip-book/326dc5e3cf.html",
-    "areas": [
-      "multimedia",
-      "editorial",
-      "branding",
-      "packaging"
-    ],
+    "areas": ["multimedia", "editorial", "branding", "packaging"],
     "slug": "mario-cruz"
   },
   {
@@ -193,11 +141,7 @@
     "description": "¡Hola! Mi nombre es Erick Coreas. Diseñador gráfico apasionado en crear soluciones visuales innovadoras y efectivas que transmitan la esencia de cada proyecto. Me caracterizo por mi creatividad, pensamiento crítico y habilidades de comunicación, cualidades que me permiten desenvolverme en entornos colaborativos con el propósito de generar diseños que conecten con las audiencias y superen expectativas.",
     "web": "https://coreas.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/10114d6b2a.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "branding"
-    ],
+    "areas": ["social_media", "multimedia", "branding"],
     "slug": "erick-coreas"
   },
   {
@@ -208,12 +152,7 @@
     "behance": "https://www.behance.net/abbyorteg/services",
     "web": "https://abbyortega2003.wixsite.com/abby-portafolio",
     "flipbook": "https://heyzine.com/flip-book/88d4461b35.html",
-    "areas": [
-      "branding",
-      "ilustracion",
-      "uxui",
-      "packaging"
-    ],
+    "areas": ["branding", "ilustracion", "uxui", "packaging"],
     "slug": "abigail-barahona"
   },
   {
@@ -225,11 +164,7 @@
     "instagram": "https://www.instagram.com/gabrieldiseno",
     "web": "https://gabrielbenitez.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/c6418da0ff.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "branding"
-    ],
+    "areas": ["social_media", "multimedia", "branding"],
     "slug": "gabriel-benitez"
   },
   {
@@ -241,11 +176,7 @@
     "linkedin": "https://www.linkedin.com/feed/",
     "web": "https://raquelbarahona.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/e267fb4cb5.html",
-    "areas": [
-      "ilustracion",
-      "social_media",
-      "branding"
-    ],
+    "areas": ["ilustracion", "social_media", "branding"],
     "slug": "raquel-barahona"
   },
   {
@@ -257,11 +188,7 @@
     "linkedin": "https://www.linkedin.com/in/lizeth-benavides-77bb23387/",
     "web": "https://lizittary.wixsite.com/stary",
     "flipbook": "https://publuu.com/flip-book/980232/2155399",
-    "areas": [
-      "social_media",
-      "branding",
-      "ilustracion"
-    ],
+    "areas": ["social_media", "branding", "ilustracion"],
     "slug": "lizeth-benavides"
   },
   {
@@ -272,12 +199,7 @@
     "behance": "https://www.behance.net/hendrixbautista1",
     "web": "https://www.figma.com/proto/WlcQrFKOIIlNgGX75qKFcp/PORTAFOLIO?page-id=261%3A395&node-id=261-678&viewport=149%2C40%2C0.05&t=PvkOwlvh2VNjBIij-1&scaling=min-zoom&content-scaling=fixed",
     "flipbook": "https://heyzine.com/flip-book/9414baa5c6.html#page/12",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia",
-      "packaging"
-    ],
+    "areas": ["branding", "social_media", "multimedia", "packaging"],
     "slug": "hendrix-segovia"
   },
   {
@@ -290,12 +212,7 @@
     "instagram": "https://www.instagram.com/bymike01?igsh=NHQ3dW5hazVqdWRz",
     "web": "https://mikeberzcontact.wixsite.com/mikeberz",
     "flipbook": "https://heyzine.com/flip-book/c55e3cdae3.html",
-    "areas": [
-      "branding",
-      "uxui",
-      "uxui",
-      "editorial"
-    ],
+    "areas": ["branding", "uxui", "uxui", "editorial"],
     "slug": "miguel-bernal"
   },
   {
@@ -305,12 +222,7 @@
     "linkedin": "https://www.linkedin.com/in/fatima-bautista-511a7b253/",
     "web": "https://fatimabautista.my.canva.site",
     "flipbook": "https://online.fliphtml5.com/FatimaBautista/elnv/",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "multimedia", "ilustracion"],
     "slug": "fatima-bautista"
   },
   {
@@ -322,12 +234,7 @@
     "linkedin": "https://www.linkedin.com/in/alhmena-aguilar-6352ab338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "web": "https://alhmena.my.canva.site/",
     "flipbook": "https://online.fliphtml5.com/Alhmena/yuoe/",
-    "areas": [
-      "ilustracion",
-      "social_media",
-      "3d",
-      "editorial"
-    ],
+    "areas": ["ilustracion", "social_media", "3d", "editorial"],
     "slug": "alhmena-aguilar"
   },
   {
@@ -339,12 +246,7 @@
     "linkedin": "https://www.linkedin.com/in/la-art-848a9832a/",
     "web": "https://laart237.wixsite.com/my-portafolio",
     "flipbook": "https://online.fliphtml5.com/Daniboo/ywzj/",
-    "areas": [
-      "ilustracion",
-      "branding",
-      "3d",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "branding", "3d", "social_media"],
     "slug": "daniela-cartagena"
   },
   {
@@ -356,11 +258,7 @@
     "linkedin": "https://www.linkedin.com/in/valeria-carranza-03a5452b2/",
     "web": "https://valcarranza1704.wixsite.com/portafolio-valeria",
     "flipbook": "https://online.fliphtml5.com/portfolioValeria2025/krgv/",
-    "areas": [
-      "social_media",
-      "editorial",
-      "branding"
-    ],
+    "areas": ["social_media", "editorial", "branding"],
     "slug": "valeria-carranza"
   },
   {
@@ -371,12 +269,7 @@
     "instagram": "https://www.instagram.com/tomas_aguilarcarranza/",
     "behance": "https://www.behance.net/tomascarranza",
     "flipbook": "https://heyzine.com/flip-book/6bd7271c8a.html",
-    "areas": [
-      "multimedia",
-      "uxui",
-      "branding",
-      "social_media"
-    ],
+    "areas": ["multimedia", "uxui", "branding", "social_media"],
     "slug": "tomas-carranza"
   },
   {
@@ -388,11 +281,7 @@
     "instagram": "https://www.instagram.com/byangie_sv?igsh=MWkwZnQxamRhd24wbA%3D%3D&utm_source=qr",
     "web": "https://angieskiny.odoo.com/",
     "flipbook": "https://heyzine.com/flip-book/75f74fbc78.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "multimedia"],
     "slug": "angie-cabezas"
   },
   {
@@ -402,12 +291,7 @@
     "linkedin": "https://www.linkedin.com/in/felipe-cortez-62831a359/",
     "web": "https://cortezjuanfelipe.wixsite.com/basari",
     "flipbook": "https://heyzine.com/flip-book/6084368146.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["social_media", "multimedia", "branding", "editorial"],
     "slug": "felipe-cortez"
   },
   {
@@ -419,12 +303,7 @@
     "linkedin": "www.linkedin.com/in/alkamet",
     "web": "https://alkamet.my.canva.site/diego-campos",
     "flipbook": "https://heyzine.com/flip-book/3578e9ad09.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "uxui", "multimedia"],
     "slug": "diego-campos"
   },
   {
@@ -437,11 +316,7 @@
     "instagram": "https://www.instagram.com/km_dg02?igsh=ZmZpNXRmbmlmZzh2&utm_source=qr",
     "web": "https://kmcf020.wixsite.com/kamia",
     "flipbook": "https://online.fliphtml5.com/Kamia5025/qeyb/",
-    "areas": [
-      "ilustracion",
-      "editorial",
-      "ilustracion"
-    ],
+    "areas": ["ilustracion", "editorial", "ilustracion"],
     "slug": "kelly-caceres"
   },
   {
@@ -453,12 +328,7 @@
     "linkedin": "https://www.linkedin.com/in/kelly-contreras-384ab6379/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     "web": "https://editor.wix.com/html/editor/web/renderer/edit/3538ba65-13b9-415a-b823-21b6ce67a7e8?metaSiteId=e25e08b2-3d12-40ed-bfb9-b2e4c60b8585&editorSessionId=92310f5a-088b-4ca0-b4ee-1327d933ef22",
     "flipbook": "https://online.fliphtml5.com/kellyyycn/mfui/",
-    "areas": [
-      "branding",
-      "social_media",
-      "packaging",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "packaging", "ilustracion"],
     "slug": "kelly-contreras"
   },
   {
@@ -470,12 +340,7 @@
     "instagram": "https://www.instagram.com/mgx28photo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     "web": "https://michellcguerra28.wixsite.com/the-closed-code-by-m",
     "flipbook": "https://heyzine.com/flip-book/07b818af5e.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "editorial",
-      "ilustracion"
-    ],
+    "areas": ["social_media", "multimedia", "editorial", "ilustracion"],
     "slug": "michell-guerra"
   },
   {
@@ -487,12 +352,7 @@
     "linkedin": "https://www.linkedin.com/in/rosy-caballero-157495236/",
     "web": "https://rossherrera172.wixsite.com/portafolio",
     "flipbook": "https://online.fliphtml5.com/Rsoy_caballero/ifzj/#p=1",
-    "areas": [
-      "social_media",
-      "packaging",
-      "branding",
-      "multimedia"
-    ],
+    "areas": ["social_media", "packaging", "branding", "multimedia"],
     "slug": "rosy-herrera"
   },
   {
@@ -504,12 +364,7 @@
     "linkedin": "https://www.linkedin.com/in/alexander-hernandez-44b869355/",
     "web": "https://alexanderhhernande.wixsite.com/my-site-1",
     "flipbook": "https://online.fliphtml5.com/Alee22/xpow/",
-    "areas": [
-      "multimedia",
-      "social_media",
-      "branding",
-      "ilustracion"
-    ],
+    "areas": ["multimedia", "social_media", "branding", "ilustracion"],
     "slug": "alexander-hernandez"
   },
   {
@@ -519,12 +374,7 @@
     "description": "Soy Fabby Hernández, Diseñadora Gráfica con tres años de experiencia en social media y branding. Me especializo en crear identidades visuales y contenido que conecta. Mi meta es aportar frescura, autenticidad y creatividad para que cada marca brille.",
     "web": "https://fabbyhdez04.wixsite.com/fabbyhernandez",
     "flipbook": "https://heyzine.com/flip-book/02c2e61733.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "3d",
-      "multimedia"
-    ],
+    "areas": ["social_media", "branding", "3d", "multimedia"],
     "slug": "fabiola-hernandez"
   },
   {
@@ -536,12 +386,7 @@
     "instagram": "https://www.instagram.com/erickcast.ec",
     "web": "https://cerickj.my.canva.site/portafolio2025",
     "flipbook": "https://heyzine.com/flip-book/135625f50e.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["social_media", "branding", "uxui", "multimedia"],
     "slug": "erick-castillo"
   },
   {
@@ -553,12 +398,7 @@
     "linkedin": "https://www.linkedin.com/in/angeloop/",
     "web": "https://angeloop.framer.website/",
     "flipbook": "https://online.fliphtml5.com/Angeloop/zvvt/index.html",
-    "areas": [
-      "uxui",
-      "branding",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["uxui", "branding", "editorial", "social_media"],
     "slug": "angel-cruz"
   },
   {
@@ -570,11 +410,7 @@
     "instagram": "https://www.instagram.com/plasticmoonstudio001?igsh=MWE3bGFycmJxNm9mOQ%3D%3D",
     "web": "https://plasticmoonstudio00.wixsite.com/portafolio",
     "flipbook": "https://heyzine.com/flip-book/e3a4aef879.html",
-    "areas": [
-      "branding",
-      "ilustracion",
-      "uxui"
-    ],
+    "areas": ["branding", "ilustracion", "uxui"],
     "slug": "melissa-membreno"
   },
   {
@@ -587,12 +423,7 @@
     "instagram": "https://www.instagram.com/edulito._.sv?igsh=dDBqbjFxbzJ4Y3dj",
     "web": "https://eduardo12ec37.wixsite.com/my-site-7",
     "flipbook": "https://heyzine.com/flip-book/9b00ba1747.htmlhttps://heyzine.com/flip-book/9b00ba1747.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "multimedia", "ilustracion"],
     "slug": "eduardo-carrillo"
   },
   {
@@ -603,11 +434,7 @@
     "behance": "https://www.behance.net/fernandmartine152",
     "web": "https://nicoomartinez039.wixsite.com/portal-creativo",
     "flipbook": "https://heyzine.com/flip-book/3e4cbd2ed0.html",
-    "areas": [
-      "packaging",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["packaging", "branding", "editorial"],
     "slug": "nicole-contreras"
   },
   {
@@ -617,11 +444,7 @@
     "behance": "https://www.behance.net/genmejia112413",
     "web": "https://genesiscruz.my.canva.site/genesis-cruz",
     "flipbook": "https://heyzine.com/flip-book/c72aebc5ed.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "branding"
-    ],
+    "areas": ["social_media", "multimedia", "branding"],
     "slug": "genesis-cruz"
   },
   {
@@ -633,12 +456,7 @@
     "linkedin": "https://www.linkedin.com/in/karen-carbajal-459b44264/",
     "web": "https://karencarbajal.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/b1f391cf07.html",
-    "areas": [
-      "social_media",
-      "ilustracion",
-      "branding",
-      "multimedia"
-    ],
+    "areas": ["social_media", "ilustracion", "branding", "multimedia"],
     "slug": "karen-carbajal"
   },
   {
@@ -650,11 +468,7 @@
     "linkedin": "www.linkedin.com/in/erika-campos-diseño",
     "web": "https://byeri.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/63e4d28966.html",
-    "areas": [
-      "social_media",
-      "editorial",
-      "multimedia"
-    ],
+    "areas": ["social_media", "editorial", "multimedia"],
     "slug": "erika-campos"
   },
   {
@@ -667,12 +481,7 @@
     "instagram": "https://www.instagram.com/cc_mih?igsh=MmIzdnM4NmFjNHRy",
     "web": "https://caroworks1.wixsite.com/the-stardust-eye-gat",
     "flipbook": "https://heyzine.com/flip-book/95b27bd270.html",
-    "areas": [
-      "branding",
-      "ilustracion",
-      "uxui",
-      "social_media"
-    ],
+    "areas": ["branding", "ilustracion", "uxui", "social_media"],
     "slug": "carolina-casco"
   },
   {
@@ -681,12 +490,7 @@
     "description": "Un futuro profesional con experiencia laboral en la creación de soluciones visuales y audiovisuales innovadoras que comunican de manera efectiva mensajes y conceptos. Me destaco por mi compromiso, responsabilidad, rapidez y atención a los detalles. A lo largo de mi formación académica he trabajado en diversos proyectos que han fortalecido mis conocimientos, técnicas y capacidad para trabajar en equipo.",
     "web": "https://jonathanvelasquez34.wixsite.com/en-linea",
     "flipbook": "https://heyzine.com/flip-book/4835ae01ef.html",
-    "areas": [
-      "multimedia",
-      "social_media",
-      "multimedia",
-      "social_media"
-    ],
+    "areas": ["multimedia", "social_media", "multimedia", "social_media"],
     "slug": "jonathan-velasquez"
   },
   {
@@ -699,12 +503,7 @@
     "instagram": "https://www.instagram.com/abysaurus14.png?utm_source=ig_web_button_share_sheet&igsh=ZXpvNWhqejlhNG0w",
     "web": "https://abycardoza02.wixsite.com/portafolio-abysaurus",
     "flipbook": "https://heyzine.com/flip-book/c8002aacd9.html",
-    "areas": [
-      "ilustracion",
-      "branding",
-      "3d",
-      "editorial"
-    ],
+    "areas": ["ilustracion", "branding", "3d", "editorial"],
     "slug": "abigail-cardoza"
   },
   {
@@ -715,12 +514,7 @@
     "linkedin": "linkedin.com/in/kenneth-dubón-9837a7246",
     "web": "https://pruebadecanva1111.my.canva.site/kenechy",
     "flipbook": "https://heyzine.com/flip-book/499429b954.html",
-    "areas": [
-      "editorial",
-      "branding",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["editorial", "branding", "multimedia", "ilustracion"],
     "slug": "kenneth-dubon"
   },
   {
@@ -731,12 +525,7 @@
     "linkedin": "https://linktr.ee/_Naomide",
     "web": "https://bynaomidesign.my.canva.site/",
     "flipbook": "https://publuu.com/flip-book/973574/2155402",
-    "areas": [
-      "social_media",
-      "branding",
-      "uxui",
-      "editorial"
-    ],
+    "areas": ["social_media", "branding", "uxui", "editorial"],
     "slug": "naomi-diaz"
   },
   {
@@ -748,11 +537,7 @@
     "linkedin": "https://www.linkedin.com/in/michelle-dur%C3%A1n-85517126b/",
     "web": "https://marianmichelledp.wixsite.com/portafolio-2025-mich",
     "flipbook": "https://heyzine.com/flip-book/f3a1a0886f.html#page/1",
-    "areas": [
-      "social_media",
-      "ilustracion",
-      "branding"
-    ],
+    "areas": ["social_media", "ilustracion", "branding"],
     "slug": "michelle-duran"
   },
   {
@@ -764,12 +549,7 @@
     "instagram": "https://www.facebook.com/Marcosagastumee/",
     "behance_2": "https://www.behance.net/marquitossv",
     "flipbook": "https://publuu.com/flip-book/974452/2144728?disablelogs=1",
-    "areas": [
-      "branding",
-      "multimedia",
-      "branding",
-      "multimedia"
-    ],
+    "areas": ["branding", "multimedia", "branding", "multimedia"],
     "slug": "marcos-sagastume"
   },
   {
@@ -780,11 +560,7 @@
     "instagram": "https://www.instagram.com/maelidsgn?igsh=MWE1Y3dzbm16dnZ1bQ==",
     "web": "https://maelidsgn.my.canva.site",
     "flipbook": "https://heyzine.com/flip-book/176917de8b.html",
-    "areas": [
-      "ilustracion",
-      "multimedia",
-      "multimedia"
-    ],
+    "areas": ["ilustracion", "multimedia", "multimedia"],
     "slug": "marcela-canadas"
   },
   {
@@ -795,11 +571,7 @@
     "linkedin": "www.linkedin.com/in/gisellefunes",
     "web": "https://gisellefunes.my.canva.site/",
     "flipbook": "https://publuu.com/flip-book/980107/2155209",
-    "areas": [
-      "ilustracion",
-      "uxui",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "uxui", "social_media"],
     "slug": "giselle-funes"
   },
   {
@@ -810,11 +582,7 @@
     "behance": "https://www.behance.net/portafolioAndreaF",
     "web": "https://arevaloandrea281.wixsite.com/my-site-1",
     "flipbook": "https://heyzine.com/flip-book/b14d762164.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["social_media", "branding", "editorial"],
     "slug": "andrea-flores"
   },
   {
@@ -826,11 +594,7 @@
     "linkedin": "www.linkedin.com/in/emely-figueroa-7b6b6424b",
     "web": "https://emelyale01.wixsite.com/magicart",
     "flipbook": "https://heyzine.com/flip-book/3a1d0b86b0.html",
-    "areas": [
-      "social_media",
-      "ilustracion",
-      "branding"
-    ],
+    "areas": ["social_media", "ilustracion", "branding"],
     "slug": "emely-figueroa"
   },
   {
@@ -839,12 +603,7 @@
     "description": "Soy José Flores, diseñador gráfico especializado en publicidad e identidad visual. Me apasiona desarrollar proyectos funcionales que transmitan ideas claras y efectivas. Mi compromiso, iniciativa y capacidad de adaptación al trabajo en equipo fortalecen mi aporte profesional. Estoy en constante aprendizaje, buscando mejorar habilidades y aportar soluciones creativas que generen valor en cada proyecto.",
     "web": "https://jlfm594.wixsite.com/portafoliojosel",
     "flipbook": "https://heyzine.com/flip-book/f8d9d3e095.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "branding",
-      "ilustracion"
-    ],
+    "areas": ["social_media", "multimedia", "branding", "ilustracion"],
     "slug": "jose-flores"
   },
   {
@@ -855,11 +614,7 @@
     "behance": "https://www.behance.net/adrianagranados6",
     "web": "https://momograna2.wixsite.com/portafolio",
     "flipbook": "https://heyzine.com/flip-book/AdriGranados.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "ilustracion"],
     "slug": "adriana-granados"
   },
   {
@@ -869,11 +624,7 @@
     "linkedin": "http://www.linkedin.com/in/alexander-gallegos-692ba9387",
     "web": "http://geralgallegg-spcty.wordpress.com",
     "flipbook": "https://heyzine.com/flip-book/dfcc77aaa0.html",
-    "areas": [
-      "branding",
-      "ilustracion",
-      "social_media"
-    ],
+    "areas": ["branding", "ilustracion", "social_media"],
     "slug": "alexander-garcia"
   },
   {
@@ -886,13 +637,7 @@
     "instagram": "https://www.instagram.com/override.portfolio",
     "web": "https://alegng23.wixsite.com/override",
     "flipbook": "https://online.fliphtml5.com/vodro/bqro/",
-    "areas": [
-      "social_media",
-      "editorial",
-      "branding",
-      "uxui",
-      "packaging"
-    ],
+    "areas": ["social_media", "editorial", "branding", "uxui", "packaging"],
     "slug": "paola-gonzalez"
   },
   {
@@ -902,11 +647,7 @@
     "description": "Soy Gabriela Guevara, diseñadora e ilustradora que transforma ideas en universos visuales. Mi portafolio es un recorrido donde la estética se mezcla con la emoción, buscando dar vida a cada trazo y conectar con quienes descubren mis creaciones.",
     "web": "https://gabbart005.wixsite.com/vestigios",
     "flipbook": "https://heyzine.com/flip-book/64a445e3e9.html",
-    "areas": [
-      "ilustracion",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "editorial", "social_media"],
     "slug": "gabriela-huezo"
   },
   {
@@ -916,11 +657,7 @@
     "behance": "https://www.behance.net/gallery/235701945/Portafolio-2025-Disidencias",
     "web": "https://fredericjgm22.wixsite.com/disidencias",
     "flipbook": "https://heyzine.com/flip-book/31b068ee12.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "ilustracion"],
     "slug": "frederic-garcia"
   },
   {
@@ -932,11 +669,7 @@
     "instagram": "https://www.instagram.com/juststeff.sv/",
     "web": "https://estefanyisabel1999.wixsite.com/portafolio-personal",
     "flipbook": "https://heyzine.com/flip-book/6615423f37.html",
-    "areas": [
-      "ilustracion",
-      "social_media",
-      "packaging"
-    ],
+    "areas": ["ilustracion", "social_media", "packaging"],
     "slug": "estefany-garcia"
   },
   {
@@ -945,12 +678,7 @@
     "description": "Soy diseñador gráfico con experiencia en branding, editorial, social media e ilustración. Me especializo en crear piezas visuales que transmiten mensajes claros y conectan con las personas. Mi enfoque combina creatividad, estrategia y sensibilidad para dar forma a ideas y transformarlas en proyectos auténticos y funcionales.",
     "web": "https://xn--elmerpea-j3a.framer.website/",
     "flipbook": "https://heyzine.com/flip-book/56213407fe.html#page/1",
-    "areas": [
-      "social_media",
-      "branding",
-      "editorial",
-      "ilustracion"
-    ],
+    "areas": ["social_media", "branding", "editorial", "ilustracion"],
     "slug": "elmer-pena"
   },
   {
@@ -960,12 +688,7 @@
     "behance": "https://www.behance.net/mariaguerrero13",
     "web": "https://maryguerrero1000.wixsite.com/mgmariaguerrero",
     "flipbook": "https://heyzine.com/flip-book/mgmariaguerrero",
-    "areas": [
-      "social_media",
-      "ilustracion",
-      "multimedia",
-      "editorial"
-    ],
+    "areas": ["social_media", "ilustracion", "multimedia", "editorial"],
     "slug": "maria-guerrero"
   },
   {
@@ -974,11 +697,7 @@
     "description": "Soy un diseñador dedicado al diseño editorial, contenido multimedia y social media, disfruto mucho hacer cosas distintas, atractivas y en función a lo que el cliente requiera, empleando el conocimiento que he adquirido a lo largo de la carrera.",
     "web": "https://portafolio-carlos-4.webnode.es/",
     "flipbook": "https://heyzine.com/flip-book/fe86dc3d62.html",
-    "areas": [
-      "editorial",
-      "multimedia",
-      "social_media"
-    ],
+    "areas": ["editorial", "multimedia", "social_media"],
     "slug": "carlos-gochez"
   },
   {
@@ -991,12 +710,7 @@
     "instagram": "https://www.instagram.com/e_enusong/",
     "web": "https://portafolionadiaurrutia.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/entreespejos.html",
-    "areas": [
-      "packaging",
-      "multimedia",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["packaging", "multimedia", "editorial", "social_media"],
     "slug": "nadia-urrutia"
   },
   {
@@ -1006,12 +720,7 @@
     "linkedin": "https://www.linkedin.com/in/osmin-vasquez-a89522248/",
     "web": "https://www.figma.com/proto/iZgkuWLbJEJJy9oKG5Kcm0/Untitled?node-id=2-3&t=ugCdBYfFedg3eCcR-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
     "flipbook": "https://heyzine.com/flip-book/0636e9be3a.html",
-    "areas": [
-      "branding",
-      "uxui",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["branding", "uxui", "editorial", "social_media"],
     "slug": "osmin-gonzalez"
   },
   {
@@ -1023,12 +732,7 @@
     "instagram": "https://www.instagram.com/aquajellyfish01?igsh=cWZ5dHdwNnZ5Zzhx",
     "web": "https://angeldoris330.wixsite.com/angel-porta-25",
     "flipbook": "https://heyzine.com/flip-book/595bdf6588.html#page/1",
-    "areas": [
-      "social_media",
-      "packaging",
-      "3d",
-      "editorial"
-    ],
+    "areas": ["social_media", "packaging", "3d", "editorial"],
     "slug": "doris-angel"
   },
   {
@@ -1041,11 +745,7 @@
     "instagram": "https://www.instagram.com/keeyh_grnds?igsh=MWhyYnBuc3BheXgzMg==",
     "web": "https://by-keiyh.webnode.es",
     "flipbook": "https://heyzine.com/flip-book/aaf9a22c70.html",
-    "areas": [
-      "packaging",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["packaging", "branding", "editorial"],
     "slug": "keiry-hernandez"
   },
   {
@@ -1054,11 +754,7 @@
     "description": "Soy diseñadora gráfica con enfoque en publicidad, comunicación visual y diseño editorial. Mi trabajo transforma ideas en proyectos completos y funcionales. Busco el equilibrio entre creatividad y estrategia para generar soluciones visuales con propósito.",
     "web": "https://mariahernandezportafolio2025.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/aef3eb8541.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["social_media", "branding", "editorial"],
     "slug": "maria-jose-hernandez"
   },
   {
@@ -1067,12 +763,7 @@
     "description": "Diseñador gráfico en formación con experiencia en gestión de contenido digital, Multimedia y diseño editorial. Apasionado por la creatividad visual y la comunicación efectiva, con proyectos en redes sociales. Busco aportar innovación y estética a proyectos editoriales y de identidad visual.",
     "web": "https://1stjj.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/a1741602df.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "3d",
-      "branding"
-    ],
+    "areas": ["social_media", "multimedia", "3d", "branding"],
     "slug": "jairo-hernandez"
   },
   {
@@ -1085,11 +776,7 @@
     "instagram": "https://www.instagram.com/soynazaaa/?hl=es",
     "web": "https://nazaportafolio.framer.website/",
     "flipbook": "https://heyzine.com/flip-book/f098ea5420.html",
-    "areas": [
-      "uxui",
-      "branding",
-      "social_media"
-    ],
+    "areas": ["uxui", "branding", "social_media"],
     "slug": "nazareth-henriquez"
   },
   {
@@ -1101,11 +788,7 @@
     "instagram": "https://www.instagram.com/stanlosaurus/",
     "web": "https://stanlosaurus.wixsite.com/inicio",
     "flipbook": "https://online.fliphtml5.com/woejb/cwya/",
-    "areas": [
-      "social_media",
-      "branding",
-      "ilustracion"
-    ],
+    "areas": ["social_media", "branding", "ilustracion"],
     "slug": "stanley-huezo"
   },
   {
@@ -1116,11 +799,7 @@
     "instagram": "https://www.instagram.com/vanedesigner_?igsh=a3phbmI0cDMwOXIw",
     "web": "https://hernandezvanes601.wixsite.com/portafolio",
     "flipbook": "https://online.fliphtml5.com/Vanessa0316/szna/",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "multimedia"],
     "slug": "vanessa-hernandez"
   },
   {
@@ -1133,12 +812,7 @@
     "instagram": "https://www.instagram.com/andrea_desinger?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     "web": "https://andreaguadalupeher.wixstudio.com/my-site-2",
     "flipbook": "https://heyzine.com/flip-book/8c7b8c19a8.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "packaging",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "packaging", "ilustracion"],
     "slug": "andrea-hernandez"
   },
   {
@@ -1148,12 +822,7 @@
     "description": "Hola soy Henry Hernández, soy un diseñador gráfico con afinidad y gusto profesional en el arte del motion graphics, apasionado en su trabajo y arte, amigable, cerio, responsable, colaborativo y dispuesto a aprender cada vez más, para seguir creciendo profesionalmente y como persona.",
     "web": "https://zerohen.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/6e74cd2ac4.html",
-    "areas": [
-      "multimedia",
-      "editorial",
-      "branding",
-      "social_media"
-    ],
+    "areas": ["multimedia", "editorial", "branding", "social_media"],
     "slug": "henry-hernandez"
   },
   {
@@ -1164,11 +833,7 @@
     "instagram": "https://www.instagram.com/kato_darkneess?igsh=MTIxODJmamw3bXJ0aA==",
     "web": "https://katoiraheta.wixsite.com/kathi",
     "flipbook": "https://online.fliphtml5.com/svdwn/qmkp/",
-    "areas": [
-      "social_media",
-      "ilustracion",
-      "editorial"
-    ],
+    "areas": ["social_media", "ilustracion", "editorial"],
     "slug": "katherine-iraheta"
   },
   {
@@ -1180,12 +845,7 @@
     "instagram": "https://www.instagram.com/tokyo_glitxh?igsh=Z2U1NW5kdHVzcGY3",
     "web": "https://www.canva.com/design/DAG0gAmHvPk/-5P7Msv7Xn01VcNR086vUg/view?utm_content=DAG0gAmHvPk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9bfe4f6887",
     "flipbook": "https://heyzine.com/flip-book/3ae743cffa.html#page/46",
-    "areas": [
-      "ilustracion",
-      "social_media",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["ilustracion", "social_media", "uxui", "multimedia"],
     "slug": "sara-juarez"
   },
   {
@@ -1195,11 +855,7 @@
     "description": "Diseñadora gráfica apasionada por la identidad visual, redes sociales, publicidad y multimedia. Comprometida, empática y con habilidades para el trabajo en equipo, disfruto convertir cada proyecto en un reto personal y profesional. Mi objetivo es ayudar a marcas y empresas a comunicar eficazmente su esencia a través del diseño.",
     "web": "https://miportafolioyemju.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/40636cd622.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "multimedia"
-    ],
+    "areas": ["social_media", "branding", "multimedia"],
     "slug": "yeimy-juarez"
   },
   {
@@ -1211,12 +867,7 @@
     "instagram": "https://www.instagram.com/sari.desing_/",
     "web": "https://lh212178.myportfolio.com/",
     "flipbook": "https://publuu.com/flip-book/973573/2160121",
-    "areas": [
-      "editorial",
-      "ilustracion",
-      "branding",
-      "uxui"
-    ],
+    "areas": ["editorial", "ilustracion", "branding", "uxui"],
     "slug": "sara-lopez"
   },
   {
@@ -1228,12 +879,7 @@
     "linkedin": "https://www.linkedin.com/in/alexander-lobo-galm/",
     "web": "https://portafolio-alexander-lobo.jimdosite.com",
     "flipbook": "https://heyzine.com/flip-book/eb4e03dc44.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "3d",
-      "editorial"
-    ],
+    "areas": ["branding", "social_media", "3d", "editorial"],
     "slug": "alexander-lobo"
   },
   {
@@ -1244,12 +890,7 @@
     "behance": "https://www.behance.net/edenilsonlopez",
     "web": "https://miportafoliogels.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/8112eb7f7e.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "branding",
-      "packaging"
-    ],
+    "areas": ["social_media", "branding", "branding", "packaging"],
     "slug": "gelvis-mejia"
   },
   {
@@ -1259,11 +900,7 @@
     "linkedin": "https://www.linkedin.com/in/abigail-l%C3%B3pez-pe%C3%B1ate/",
     "web": "https://natalilopez1108.wixstudio.com/misitio",
     "flipbook": "https://heyzine.com/flip-book/9ff59e502a.html",
-    "areas": [
-      "uxui",
-      "social_media",
-      "branding"
-    ],
+    "areas": ["uxui", "social_media", "branding"],
     "slug": "abigail-lopez"
   },
   {
@@ -1274,13 +911,7 @@
     "behance": "https://www.behance.net/carolinalopez29",
     "web": "https://www.figma.com/proto/22sqLi9UFkfU9chbEMnPTm/InkMoon-Portafolio?node-id=1-2&t=ohmKKUJyDKtdqeS8-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
     "flipbook": "https://heyzine.com/flip-book/8ca9252555.html",
-    "areas": [
-      "branding",
-      "ilustracion",
-      "3d",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["branding", "ilustracion", "3d", "editorial", "social_media"],
     "slug": "carolina-lopez"
   },
   {
@@ -1293,11 +924,7 @@
     "instagram": "https://www.instagram.com/cl_art15/",
     "web": "https://cesarlarios-portafolio.framer.website",
     "flipbook": "https://heyzine.com/flip-book/a26f934580.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "social_media"
-    ],
+    "areas": ["social_media", "branding", "social_media"],
     "slug": "cesar-larios"
   },
   {
@@ -1309,11 +936,7 @@
     "linkedin": "https://www.linkedin.com/in/andrea-suria-50477a2b2/",
     "web": "https://andysuria28.wixstudio.com/dreadesign",
     "flipbook": "https://heyzine.com/flip-book/8c22868c79.html",
-    "areas": [
-      "branding",
-      "ilustracion",
-      "social_media"
-    ],
+    "areas": ["branding", "ilustracion", "social_media"],
     "slug": "andrea-suria"
   },
   {
@@ -1323,12 +946,7 @@
     "description": "¡Hola! Mi nombre es Vanessa Avelar, una diseñadora gráfica que no se conforma con lo común. Mi mundo es el color, la forma y la creatividad estratégica: doy vida a marcas, hago que los productos hablen y convierto cada proyecto en una experiencia que nadie olvida. ¿Preparados para ver lo que puedo crear?",
     "web": "https://ma192683.my.canva.site/avelarx14",
     "flipbook": "https://heyzine.com/flip-book/aa2c8b9fbe.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "multimedia",
-      "packaging"
-    ],
+    "areas": ["social_media", "branding", "multimedia", "packaging"],
     "slug": "vanessa-avelar"
   },
   {
@@ -1339,12 +957,7 @@
     "instagram": "https://www.instagram.com/alexanddra.ma?utm_source=ig_web_button_share_sheet&igsh=MTJiZWc4dXNwdGE0dg==",
     "web": "https://alexanddraf.my.canva.site/alexanddra",
     "flipbook": "https://heyzine.com/flip-book/6ba0efa4e4.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "uxui", "multimedia"],
     "slug": "alexandra-martinez"
   },
   {
@@ -1356,12 +969,7 @@
     "linkedin": "https://www.linkedin.com/in/alexandra-martinez-2a2989275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "web": "https://alexandramtz.my.canva.site/",
     "flipbook": "https://publuu.com/flip-book/980043/2155057",
-    "areas": [
-      "branding",
-      "editorial",
-      "uxui",
-      "social_media"
-    ],
+    "areas": ["branding", "editorial", "uxui", "social_media"],
     "slug": "alexandra-martinez-barahona"
   },
   {
@@ -1371,12 +979,7 @@
     "description": "Diseñadora gráfica en formación con experiencia en branding, ilustración y social media. Mi enfoque creativo combina estética y funcionalidad para construir identidades visuales sólidas y memorables. Me apasiona explorar nuevas formas de expresión gráfica y transformar ideas en proyectos que comuniquen con claridad, emoción y autenticidad.",
     "web": "https://angelesmolina2001.wixsite.com/ether",
     "flipbook": "https://heyzine.com/flip-book/3e7ead7a8a.html",
-    "areas": [
-      "branding",
-      "multimedia",
-      "uxui",
-      "social_media"
-    ],
+    "areas": ["branding", "multimedia", "uxui", "social_media"],
     "slug": "angeles-molina"
   },
   {
@@ -1388,11 +991,7 @@
     "instagram": "https://www.instagram.com/jenn.molina_?igsh=MWFjcnN0enFxYTBvbg==",
     "web": "https://yenntatymolina.wixsite.com/portafolio-jenn-moli",
     "flipbook": "https://online.fliphtml5.com/azsfuw/qeoh/",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["social_media", "multimedia", "ilustracion"],
     "slug": "jennifer-molina"
   },
   {
@@ -1404,11 +1003,7 @@
     "instagram": "https://www.instagram.com/_interfase.sm?igsh=Z3JtYTVlcmJjMmdu",
     "web": "https://cristinamejiawq.wixsite.com/my-site-1",
     "flipbook": "https://online.fliphtml5.com/saraimejia/ukac/",
-    "areas": [
-      "branding",
-      "social_media",
-      "uxui"
-    ],
+    "areas": ["branding", "social_media", "uxui"],
     "slug": "sarai-mejia"
   },
   {
@@ -1420,11 +1015,7 @@
     "linkedin": "https://www.linkedin.com/in/ang%C3%A9lica-escobar-3ba9bb334/",
     "web": "https://desifnbyangelic.my.canva.site/",
     "flipbook": "https://online.flippingbook.com/view/467632912/",
-    "areas": [
-      "ilustracion",
-      "social_media",
-      "branding"
-    ],
+    "areas": ["ilustracion", "social_media", "branding"],
     "slug": "angelica-escobar"
   },
   {
@@ -1434,12 +1025,7 @@
     "behance": "https://www.behance.net/julissamarroquin",
     "web": "https://readymag.website/5848030",
     "flipbook": "https://online.fliphtml5.com/JulissaMarroquin/upbx/",
-    "areas": [
-      "social_media",
-      "editorial",
-      "uxui",
-      "packaging"
-    ],
+    "areas": ["social_media", "editorial", "uxui", "packaging"],
     "slug": "julissa-marroquin"
   },
   {
@@ -1448,12 +1034,7 @@
     "description": "Diseñador Gráfico con experiencia en proyectos de identidad visual, publicidad y branding. Me caracterizo por la creatividad, atención al detalle y compromiso con la calidad en cada propuesta. Busco aportar soluciones visuales efectivas que fortalezcan la comunicación de marcas y proyectos.",
     "web": "https://nery-martinez.my.canva.site/beige-minimal-creative-portfolio-presentation",
     "flipbook": "https://issuu.com/nerymartinez/docs/portafolio_nery_martinez",
-    "areas": [
-      "branding",
-      "social_media",
-      "branding",
-      "social_media"
-    ],
+    "areas": ["branding", "social_media", "branding", "social_media"],
     "slug": "nery-martinez"
   },
   {
@@ -1465,11 +1046,7 @@
     "linkedin": "www.linkedin.com/in/printessa",
     "web": "https://michiendezgraphic.wixsite.com/printessa",
     "flipbook": "https://online.flippingbook.com/view/872162683/",
-    "areas": [
-      "social_media",
-      "branding",
-      "packaging"
-    ],
+    "areas": ["social_media", "branding", "packaging"],
     "slug": "vanessa-martinez"
   },
   {
@@ -1481,12 +1058,7 @@
     "instagram": "https://www.instagram.com/majotinez.design/",
     "web": "https://majotinezdesign.wixstudio.com/portafolio2025",
     "flipbook": "https://heyzine.com/flip-book/fc1fa5fe7c.html",
-    "areas": [
-      "editorial",
-      "uxui",
-      "packaging",
-      "social_media"
-    ],
+    "areas": ["editorial", "uxui", "packaging", "social_media"],
     "slug": "maria-martinez"
   },
   {
@@ -1497,11 +1069,7 @@
     "linkedin": "https://www.linkedin.com/in/m%C3%B3nica-mart%C3%ADnez-b521ab251/",
     "web": "https://monicamoralesmar.wixsite.com/portafolio2025",
     "flipbook": "https://heyzine.com/flip-book/monicamar.portfolio.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "branding"
-    ],
+    "areas": ["social_media", "multimedia", "branding"],
     "slug": "monica-martinez"
   },
   {
@@ -1513,11 +1081,7 @@
     "instagram": "https://www.instagram.com/soydiegomonge",
     "web": "https://soydiegomonge.com",
     "flipbook": "https://heyzine.com/flip-book/ee66227663.html",
-    "areas": [
-      "multimedia",
-      "branding",
-      "social_media"
-    ],
+    "areas": ["multimedia", "branding", "social_media"],
     "slug": "diego-monge"
   },
   {
@@ -1530,12 +1094,7 @@
     "instagram": "https://www.instagram.com/_hi.fab_/?hl=es-la",
     "web": "https://fabiolamirella10355.myportfolio.com/",
     "flipbook": "https://publuu.com/flip-book/973556/2138980",
-    "areas": [
-      "branding",
-      "social_media",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "uxui", "multimedia"],
     "slug": "fabiola-mendoza"
   },
   {
@@ -1547,11 +1106,7 @@
     "linkedin": "https://www.linkedin.com/in/georgina-pacheco-a17007388",
     "web": "https://georgymp00.wixstudio.com/cosmos-caotico-1",
     "flipbook": "https://heyzine.com/flip-book/05c31087b2.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "multimedia"],
     "slug": "georgina-pacheco"
   },
   {
@@ -1564,11 +1119,7 @@
     "instagram": "https://www.instagram.com/gm_art55?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     "web": "https://gisellemajano-portfolio.framer.website/",
     "flipbook": "https://heyzine.com/flip-book/ef02926160.html",
-    "areas": [
-      "ilustracion",
-      "social_media",
-      "branding"
-    ],
+    "areas": ["ilustracion", "social_media", "branding"],
     "slug": "giselle-majano"
   },
   {
@@ -1580,12 +1131,7 @@
     "linkedin": "www.linkedin.com/in/stephanie-monico-393b50333",
     "web": "https://readymag.website/u801541384/5839171/",
     "flipbook": "https://heyzine.com/flip-book/675f5df5a7.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "uxui",
-      "editorial"
-    ],
+    "areas": ["branding", "social_media", "uxui", "editorial"],
     "slug": "stephanie-monico"
   },
   {
@@ -1596,11 +1142,7 @@
     "linkedin": "https://www.linkedin.com/in/gerardo-mel%C3%A9ndez-8b4850326/",
     "web": "https://chepiospios.wixsite.com/chepios",
     "flipbook": "https://heyzine.com/flip-book/f2688cdd1d.html",
-    "areas": [
-      "editorial",
-      "packaging",
-      "branding"
-    ],
+    "areas": ["editorial", "packaging", "branding"],
     "slug": "gerardo-melendez"
   },
   {
@@ -1611,12 +1153,7 @@
     "behance": "https://www.behance.net/alessanmerino",
     "web": "https://app.uizard.io/p/afce7993",
     "flipbook": "https://online.fliphtml5.com/alessandramerino/pfat/",
-    "areas": [
-      "branding",
-      "packaging",
-      "uxui",
-      "social_media"
-    ],
+    "areas": ["branding", "packaging", "uxui", "social_media"],
     "slug": "alessandra-merino"
   },
   {
@@ -1628,11 +1165,7 @@
     "linkedin": "https://www.linkedin.com/in/gabriela-manc%C3%ADa-08a08029a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "web": "https://gmart041.wixsite.com/my-site-2",
     "flipbook": "https://heyzine.com/flip-book/43f1077d8d.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "multimedia"],
     "slug": "gabriela-mancia"
   },
   {
@@ -1644,12 +1177,7 @@
     "instagram": "https://www.instagram.com/by_nerio_/",
     "web": "https://bryannerio.myportfolio.com/",
     "flipbook": "https://online.fliphtml5.com/BryanNerio/qsin/",
-    "areas": [
-      "branding",
-      "ilustracion",
-      "multimedia",
-      "editorial"
-    ],
+    "areas": ["branding", "ilustracion", "multimedia", "editorial"],
     "slug": "bryan-nerio"
   },
   {
@@ -1659,11 +1187,7 @@
     "description": "Soy un apasionado del arte infantil y la fotografía, con formación académica en Diseño Gráfico que me ha permitido desarrollar una mirada creativa y técnica. Mi trabajo se caracteriza por integrar la sensibilidad artística con la estrategia visual, logrando proyectos que transmiten emociones, cuentan historias y fortalecen identidades.",
     "web": "https://leninrodrinava16.wixsite.com/portafolio-lenart",
     "flipbook": "https://heyzine.com/flip-book/16fa0a6df7.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "multimedia"
-    ],
+    "areas": ["social_media", "branding", "multimedia"],
     "slug": "lenin-navarro"
   },
   {
@@ -1676,11 +1200,7 @@
     "instagram": "https://www.instagram.com/studio.k.o_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     "web": "https://karyortiz.portfoliobox.net/",
     "flipbook": "https://heyzine.com/flip-book/4a24058366.html",
-    "areas": [
-      "ilustracion",
-      "social_media",
-      "branding"
-    ],
+    "areas": ["ilustracion", "social_media", "branding"],
     "slug": "karina-ortiz"
   },
   {
@@ -1689,11 +1209,7 @@
     "description": "Hola, soy Pao, actualmente estoy cursando mi quinto año de la licenciatura en Diseño Gráfico en la Universidad don Bosco. Mi enfoque es crear diseños que no solo sean estéticamente atractivos, sino que también cuenten una historia y cumplan con los objetivos del proyecto. Tengo experiencia en el diseño publicitario, y cada proyecto es una nueva oportunidad para aprender, experimentar y superar las expectativas.",
     "web": "https://jportizrojas.wixsite.com/portafolio-creativo",
     "flipbook": "https://heyzine.com/flip-book/210b4a8e8c.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "branding"
-    ],
+    "areas": ["social_media", "multimedia", "branding"],
     "slug": "paola-ortiz"
   },
   {
@@ -1703,11 +1219,7 @@
     "behance": "https://www.behance.net/danielapreza",
     "web": "https://perezesme0405.wixsite.com/my-site-1",
     "flipbook": "https://online.fliphtml5.com/dp_studio/odja/",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "multimedia"],
     "slug": "daniela-perez"
   },
   {
@@ -1720,12 +1232,7 @@
     "instagram": "https://www.instagram.com/diegocabrera_art/",
     "web": "https://diegocabreraarts.wixsite.com/diego-cabrera-dise",
     "flipbook": "https://heyzine.com/flip-book/a296d284c4.html",
-    "areas": [
-      "3d",
-      "uxui",
-      "branding",
-      "multimedia"
-    ],
+    "areas": ["3d", "uxui", "branding", "multimedia"],
     "slug": "diego-cabrera"
   },
   {
@@ -1754,11 +1261,7 @@
     "linkedin": "www.linkedin.com/in/hector-es",
     "web": "https://hesquivel.framer.website/",
     "flipbook": "https://heyzine.com/flip-book/7e94eab6b8.html",
-    "areas": [
-      "uxui",
-      "social_media",
-      "branding"
-    ],
+    "areas": ["uxui", "social_media", "branding"],
     "slug": "hector-esquivel"
   },
   {
@@ -1770,11 +1273,7 @@
     "linkedin": "www.linkedin.com/in/adripache",
     "web": "https://adripacheco-portafolio.framer.website/",
     "flipbook": "https://heyzine.com/flip-book/e5763dc6cb.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["social_media", "branding", "editorial"],
     "slug": "adriana-pacheco"
   },
   {
@@ -1783,12 +1282,7 @@
     "description": "Hola! mi nombre es Alejandro Landaverde y soy un diseñador gráfico, apasionado por lo que hace, pues el ser diseñador gráfico es una forma en la que me siento satisfecho con mi trabajo y como este es visto e influye en las personas que ven el mensaje. Actualmente poseo experiencia laboral en el rubro del diseño gráfico en general y de imprenta, trabajando artes finales, algunos desde cero y otros solo para afinar detalles estéticos, pero igualmente todos llevan una porción de mi visión por el diseño y como este debe ser.",
     "web": "https://alejandrolandaverdeportafolio2025.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/0cb1701660.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "uxui",
-      "packaging"
-    ],
+    "areas": ["social_media", "branding", "uxui", "packaging"],
     "slug": "alejandro-landaverde"
   },
   {
@@ -1817,11 +1311,7 @@
     "linkedin": "https://www.linkedin.com/in/paola-moz-212bb1379",
     "web": "https://smileyberrypaolamoz.wordpress.com/?_gl=1*13t3gc5*_gcl_au*OTk5MDI0NzAzLjE3NTkyOTUyMjYuNDUwMzYzMTg4LjE3NTkyOTYzNDQuMTc1OTI5NjY5Nw",
     "flipbook": "https://heyzine.com/flip-book/aa2b937813.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["social_media", "multimedia", "ilustracion"],
     "slug": "paola-moz"
   },
   {
@@ -1834,12 +1324,7 @@
     "instagram": "https://www.instagram.com/luminae.portfolio?igsh=MXAyODd6bHRpb3gycQ==",
     "web": "https://luminaeportfolio.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/luminae",
-    "areas": [
-      "social_media",
-      "branding",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["social_media", "branding", "uxui", "multimedia"],
     "slug": "rubidia-portillo"
   },
   {
@@ -1851,12 +1336,7 @@
     "instagram": "https://www.instagram.com/liliana_rivaille/",
     "web": "https://www.figma.com/proto/hp3O3pqthtqvJfpBX8gd5R/Untitled?node-id=0-1&p=f&t=DNS2aFNwi3GksPgr-0&scaling=contain&content-scaling=fixed&starting-point-node-id=1%3A2",
     "flipbook": "https://heyzine.com/flip-book/bcf68ab4e6.html",
-    "areas": [
-      "ilustracion",
-      "multimedia",
-      "uxui",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "multimedia", "uxui", "social_media"],
     "slug": "pamela-pineda"
   },
   {
@@ -1867,11 +1347,7 @@
     "behance": "https://www.behance.net/cristianpachecozr",
     "web": "https://www.figma.com/proto/KT9ZhfL2WUoqMIeo1vrh70/Portafolio?node-id=0-1&p=f&t=O5Q7KCi01PtwHrXl-0&scaling=contain&content-scaling=fixed&starting-point-node-id=5%3A32",
     "flipbook": "https://heyzine.com/flip-book/13d1bc13b0.html",
-    "areas": [
-      "branding",
-      "3d",
-      "multimedia"
-    ],
+    "areas": ["branding", "3d", "multimedia"],
     "slug": "cristian-pacheco"
   },
   {
@@ -1882,11 +1358,7 @@
     "behance": "https://www.behance.net/gallery/235702801/Mi-behance",
     "web": "https://www.behance.net/gallery/235702801/Mi-behance",
     "flipbook": "https://heyzine.com/flip-book/8125fdaab6.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "packaging"
-    ],
+    "areas": ["branding", "social_media", "packaging"],
     "slug": "lucia-quijano"
   },
   {
@@ -1898,12 +1370,7 @@
     "instagram": "https://www.instagram.com/rivas_artstay.08?utm_source=ig_web_button_share_sheet&igsh=MjMxNGFycG53ancy",
     "web": "https://alarisso.jimdosite.com",
     "flipbook": "https://heyzine.com/flip-book/ca834fa928.html",
-    "areas": [
-      "branding",
-      "ilustracion",
-      "multimedia",
-      "social_media"
-    ],
+    "areas": ["branding", "ilustracion", "multimedia", "social_media"],
     "slug": "abigail-rivas"
   },
   {
@@ -1915,11 +1382,7 @@
     "linkedin": "https://www.linkedin.com/in/yasmin-rivera-0bb39b328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "web": "https://second-slide-932522.framer.app/",
     "flipbook": "https://heyzine.com/flip-book/65f127a5ed.html",
-    "areas": [
-      "ilustracion",
-      "social_media",
-      "branding"
-    ],
+    "areas": ["ilustracion", "social_media", "branding"],
     "slug": "yasmin-rivera"
   },
   {
@@ -1930,11 +1393,7 @@
     "linkedin": "https://www.linkedin.com/in/fátimaramírez",
     "web": "https://fatimaivonnecrespi.wixsite.com/my-site-1",
     "flipbook": "https://heyzine.com/flip-book/45126a7c6d.html",
-    "areas": [
-      "branding",
-      "editorial",
-      "multimedia"
-    ],
+    "areas": ["branding", "editorial", "multimedia"],
     "slug": "fatima-ramirez"
   },
   {
@@ -1945,12 +1404,7 @@
     "behance": "https://www.behance.net/katieescalante",
     "web": "https://obz4kynqktpj9.my.canva.site/dag0gq3htuo",
     "flipbook": "https://heyzine.com/flip-book/5b2fc6fe7a.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "multimedia", "ilustracion"],
     "slug": "katie-rivera"
   },
   {
@@ -1961,12 +1415,7 @@
     "instagram": "https://www.instagram.com/saturn.studio25/",
     "web": "https://saturnoestudio2025.wixsite.com/saturn-studio",
     "flipbook": "https://heyzine.com/flip-book/5c23d4c1b9.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["social_media", "branding", "uxui", "multimedia"],
     "slug": "leodan-garcia"
   },
   {
@@ -1979,11 +1428,7 @@
     "instagram": "https://www.instagram.com/mari_roguz?igsh=MTVpcmU1YXdzdmliaA==",
     "web": "https://readymag.website/u4175416057/Mari-Roguz",
     "flipbook": "https://heyzine.com/flip-book/MariRoguz2025.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "editorial"
-    ],
+    "areas": ["branding", "social_media", "editorial"],
     "slug": "mariana-rodriguez"
   },
   {
@@ -1994,12 +1439,7 @@
     "behance": "https://www.behance.net/jennibere",
     "web": "https://jennibere56.wixsite.com/portafolio-2025-bere",
     "flipbook": "https://heyzine.com/flip-book/95fa14e48d.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "multimedia",
-      "social_media"
-    ],
+    "areas": ["social_media", "branding", "multimedia", "social_media"],
     "slug": "berenice-recinos"
   },
   {
@@ -2011,12 +1451,7 @@
     "linkedin": "https://www.linkedin.com/in/danielariverageorivdesign/",
     "web": "https://georivdesign.wixstudio.com/georivdesign",
     "flipbook": "https://heyzine.com/flip-book/f6eb510e14.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "editorial",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "editorial", "ilustracion"],
     "slug": "daniela-rivera"
   },
   {
@@ -2026,12 +1461,7 @@
     "description": "Soy Elizabeth Mejía, diseñadora gráfica y apasionada por la ilustración. Me gusta explorar cómo el arte y la tecnología se fusionan para crear experiencias visuales impactantes y así transmitir emociones únicas a través del diseño, combinando la funcionalidad y la calidad en cada pieza que realizo. Me considero responsable, creativa, dispuesta a aprender nuevas habilidades para así brindar un mejor servicio. Me especializo en Packaging e ilustración.",
     "web": "https://online.fliphtml5.com/zodiiac/sjdq/",
     "flipbook": "https://online.fliphtml5.com/zodiiac/sjdq/",
-    "areas": [
-      "ilustracion",
-      "packaging",
-      "branding",
-      "editorial"
-    ],
+    "areas": ["ilustracion", "packaging", "branding", "editorial"],
     "slug": "elizabeth-ramos"
   },
   {
@@ -2041,11 +1471,7 @@
     "description": "Soy estudiante de Diseño Gráfico apasionado por la animación 2D y la ilustración. He creado personajes y entornos visuales que van de lo fantasioso a lo semi-realista. Creo firmemente en la adaptabilidad como esencia de mi trabajo: al igual que los cuervos, busco ser versátil, conceptual y creativo en cada proyecto, inspirando a otros con mi visión.",
     "web": "https://www.figma.com/proto/Eo5jlssPJoE3DN9AJe02xS/Sin-t%C3%ADtulo?node-id=11-94&p=f&t=je4TWbEkDh1Wgr8E-1&scaling=contain&content-scaling=fixed&page-id=0%3A1",
     "flipbook": "https://heyzine.com/flip-book/aa3fd36398.html",
-    "areas": [
-      "multimedia",
-      "ilustracion",
-      "branding"
-    ],
+    "areas": ["multimedia", "ilustracion", "branding"],
     "slug": "kevin-renderos"
   },
   {
@@ -2057,11 +1483,7 @@
     "linkedin": "https://www.linkedin.com/in/gisselle-rojas-4b9812200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     "web": "https://girojas.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/b87172bfed.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "editorial"
-    ],
+    "areas": ["branding", "social_media", "editorial"],
     "slug": "gisselle-rojas"
   },
   {
@@ -2072,12 +1494,7 @@
     "instagram": "https://www.instagram.com/dirigidoporjason/",
     "web": "https://unreal-clarity-964314.framer.app/",
     "flipbook": "https://heyzine.com/flip-book/f33a21750a.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "uxui",
-      "editorial"
-    ],
+    "areas": ["branding", "social_media", "uxui", "editorial"],
     "slug": "jason-ramirez"
   },
   {
@@ -2088,11 +1505,7 @@
     "instagram": "https://www.instagram.com/monche_creativa/",
     "web": "https://monchecreativa.wixsite.com/monche-creativa",
     "flipbook": "https://heyzine.com/flip-book/cb8e6e6fba.html",
-    "areas": [
-      "branding",
-      "uxui",
-      "social_media"
-    ],
+    "areas": ["branding", "uxui", "social_media"],
     "slug": "dayhana-rodriguez"
   },
   {
@@ -2102,12 +1515,7 @@
     "instagram": "https://www.instagram.com/fersalinas.dg/?utm_source=ig_web_button_share_sheet",
     "web": "https://fersalinas.my.canva.site/",
     "flipbook": "https://heyzine.com/flip-book/6e57566b4d.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "multimedia",
-      "packaging"
-    ],
+    "areas": ["social_media", "branding", "multimedia", "packaging"],
     "slug": "fernanda-salinas"
   },
   {
@@ -2117,12 +1525,7 @@
     "description": "Me llamo Gabriel, soy un diseñador apasionado por el dibujo, arte japonés y diseño de marcas. Siempre me ha gustado el tema del arte y soy una persona que le gusta trabajar, y trabajar bien. Espero encuentren algo de su interés y será un gusto conocerlos y que me conozcan a mí también.",
     "web": "https://heyzine.com/flip-book/b06a5b8d70.html",
     "flipbook": "https://heyzine.com/flip-book/b06a5b8d70.html",
-    "areas": [
-      "ilustracion",
-      "branding",
-      "multimedia",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "branding", "multimedia", "social_media"],
     "slug": "gabriel-renderos"
   },
   {
@@ -2132,12 +1535,7 @@
     "behance": "https://www.behance.net/GabrielaSolano",
     "web": "https://blueteamudb.wixsite.com/portafolio-cosmosfly",
     "flipbook": "https://heyzine.com/flip-book/4e3d32f76c.html",
-    "areas": [
-      "3d",
-      "multimedia",
-      "branding",
-      "ilustracion"
-    ],
+    "areas": ["3d", "multimedia", "branding", "ilustracion"],
     "slug": "gabriela-solano"
   },
   {
@@ -2148,12 +1546,7 @@
     "linkedin": "http://www.linkedin.com/in/felix-sermeno",
     "web": "https://felixsermenoportfolio.framer.website/",
     "flipbook": "https://heyzine.com/flip-book/7b20448082.html",
-    "areas": [
-      "uxui",
-      "branding",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["uxui", "branding", "editorial", "social_media"],
     "slug": "felix-sermeno"
   },
   {
@@ -2163,12 +1556,7 @@
     "linkedin": "www.linkedin.com/in/hilcías-funes-3a37302b5",
     "web": "https://hilciasfunes.wixsite.com/hilciasfuneshfp",
     "flipbook": "https://heyzine.com/flip-book/f429659af0.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["branding", "social_media", "multimedia", "ilustracion"],
     "slug": "hilcias-funes"
   },
   {
@@ -2179,11 +1567,7 @@
     "linkedin": "www.linkedin.com/in/marcossotokz2b",
     "web": "https://linktr.ee/kazu2k25elr",
     "flipbook": "https://online.fliphtml5.com/marcoskzsoto/rqlo/",
-    "areas": [
-      "ilustracion",
-      "multimedia",
-      "editorial"
-    ],
+    "areas": ["ilustracion", "multimedia", "editorial"],
     "slug": "marcos-soto"
   },
   {
@@ -2194,12 +1578,7 @@
     "linkedin": "https://www.linkedin.com/in/daniel-torres-547978206",
     "web": "https://danieltorresudb.myportfolio.com/",
     "flipbook": "https://heyzine.com/flip-book/2011036af0.html",
-    "areas": [
-      "multimedia",
-      "branding",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["multimedia", "branding", "editorial", "social_media"],
     "slug": "daniel-torres"
   },
   {
@@ -2211,12 +1590,7 @@
     "linkedin": "www.linkedin.com/in/kelvin-torres-73b31a376",
     "web": "https://kelvintorres.myportfolio.com",
     "flipbook": "https://heyzine.com/flip-book/c564ecbd80.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "uxui",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "uxui", "multimedia"],
     "slug": "kelvin-torres"
   },
   {
@@ -2226,12 +1600,7 @@
     "description": "Soy un diseñador gráfico con 4 años de formación y experiencia en distintas áreas, eso me ha permitido adquirir experiencia en los ámbitos de miltimedia y diseño 3D donde me especializo más, me encanta que a través de mis trabajos resaltar de una manera positiva y sobresalir, tengo muchas habilidades y se adaptarme rápido a los eternos laborales.",
     "web": "https://www.figma.com/proto/fKHphWO1DYqhkBgvh30Ktw/Portafolio-Figma?page-id=0%3A1&node-id=1-2&viewport=-358%2C-40%2C0.28&t=ywTvw4Gn7bnNgzgp-1&scaling=scale-down-width&content-scaling=fixed",
     "flipbook": "https://heyzine.com/flip-book/e1b180a9a0.html",
-    "areas": [
-      "3d",
-      "social_media",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["3d", "social_media", "multimedia", "ilustracion"],
     "slug": "oscar-torres"
   },
   {
@@ -2243,12 +1612,7 @@
     "instagram": "https://www.instagram.com/spika_anhedonia?igsh=cnVnYjd4ZWRibnBm",
     "web": "https://robertoxturcios.wixsite.com/portafolio-de-estudi",
     "flipbook": "https://issuu.com/roberturci0s/docs/catalogo_de_portafolio",
-    "areas": [
-      "ilustracion",
-      "multimedia",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "multimedia", "editorial", "social_media"],
     "slug": "roberto-turcios"
   },
   {
@@ -2258,11 +1622,7 @@
     "description": "Soy un diseñador apasionado por las aventuras, el diseño y las motos. Busco la forma de unir lo minimalista con lo urbano, plasmando mí esencia con trabajos de calidad para mis clientes.",
     "behance": "https://www.behance.net/tomasinoadonay",
     "flipbook": "https://heyzine.com/flip-book/670f6c71a6.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "multimedia"],
     "slug": "adonay-tomasino"
   },
   {
@@ -2272,11 +1632,7 @@
     "behance": "https://www.behance.net/gallery/235629913/Portafolio-Kev-Torres",
     "web": "https://miportafoliokev.my.canva.site/home",
     "flipbook": "https://heyzine.com/flip-book/1369313c56.html",
-    "areas": [
-      "branding",
-      "social_media",
-      "multimedia"
-    ],
+    "areas": ["branding", "social_media", "multimedia"],
     "slug": "kevin-torres"
   },
   {
@@ -2288,12 +1644,7 @@
     "linkedin": "https://www.linkedin.com/in/cynthia-uma%C3%B1a-17564828a/",
     "web": "https://forceful-heart-754052.framer.app/",
     "flipbook": "https://heyzine.com/flip-book/fc1e22c954.html",
-    "areas": [
-      "social_media",
-      "ilustracion",
-      "branding",
-      "multimedia"
-    ],
+    "areas": ["social_media", "ilustracion", "branding", "multimedia"],
     "slug": "cynthia-umana"
   },
   {
@@ -2306,12 +1657,7 @@
     "instagram": "https://www.instagram.com/sthepp_yc/",
     "web": "https://www.figma.com/proto/euJ9UKcWOUfLJJ729FCExY/Portafolio?page-id=0%3A1&node-id=176-47&viewport=-5081%2C436%2C0.33&t=OAVD3NlgCN0YSBpJ-1&scaling=contain&content-scaling=fixed",
     "flipbook": "https://online.fliphtml5.com/Sthep_V/bvzk/",
-    "areas": [
-      "ilustracion",
-      "branding",
-      "3d",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "branding", "3d", "social_media"],
     "slug": "adriana-villegas"
   },
   {
@@ -2323,11 +1669,7 @@
     "instagram": "https://www.instagram.com/alexis.v_art/",
     "web": "https://www.canva.com/design/DAG0hTKPaEI/N4H4AQmMiA8ZfCcSdDFwyw/edit?utm_content=DAG0hTKPaEI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "flipbook": "https://heyzine.com/flip-book/579c546c07.html",
-    "areas": [
-      "social_media",
-      "multimedia",
-      "ilustracion"
-    ],
+    "areas": ["social_media", "multimedia", "ilustracion"],
     "slug": "alexis-vasquez"
   },
   {
@@ -2340,12 +1682,7 @@
     "instagram": "https://www.instagram.com/polimxtx?igsh=MTh1M3o2YmphNGkzdA==",
     "web": "https://fernandavillalta.myportfolio.com/",
     "flipbook": "https://heyzine.com/flip-book/665d9ae295.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "multimedia",
-      "editorial"
-    ],
+    "areas": ["social_media", "branding", "multimedia", "editorial"],
     "slug": "fernanda-villalta"
   },
   {
@@ -2358,12 +1695,7 @@
     "instagram": "https://www.instagram.com/cupcake.neko.uwu?igsh=MTgxNmtidXgycmN0MQ%3D%3D&utm_source=qr",
     "web": "https://gabuwu.portfoliobox.net",
     "flipbook": "https://heyzine.com/flip-book/d978b5d846.html",
-    "areas": [
-      "editorial",
-      "ilustracion",
-      "branding",
-      "social_media"
-    ],
+    "areas": ["editorial", "ilustracion", "branding", "social_media"],
     "slug": "gabriela-valdez"
   },
   {
@@ -2375,11 +1707,7 @@
     "instagram": "https://www.instagram.com/ceci_villarreal2?igsh=MW9kbWtmbDZnb3k2dQ%3D%3D&utm_source=qr",
     "web": "https://vargasvillarreal3c.wixsite.com/cecilia-vargas",
     "flipbook": "https://heyzine.com/flip-book/def8bfb6a4.html",
-    "areas": [
-      "multimedia",
-      "social_media",
-      "ilustracion"
-    ],
+    "areas": ["multimedia", "social_media", "ilustracion"],
     "slug": "cecilia-vargas"
   },
   {
@@ -2391,12 +1719,7 @@
     "instagram": "https://www.instagram.com/_giancz?utm_source=qr&igsh=MXcyamdrbGZhem9kNg==",
     "web": "https://www.figma.com/proto/VR4LHBt6JwqXBFtvwfSuga/Portafolio-modify.?node-id=46-32&p=f&t=5zPmpBSmY3P8Wh33-1&scaling=scale-down-width&content-scaling=fixed&page-id=46%3A31",
     "flipbook": "https://heyzine.com/flip-book/0803f89aae.html",
-    "areas": [
-      "multimedia",
-      "social_media",
-      "branding",
-      "uxui"
-    ],
+    "areas": ["multimedia", "social_media", "branding", "uxui"],
     "slug": "gian-zelaya"
   },
   {
@@ -2407,12 +1730,7 @@
     "behance": "https://www.behance.net/reinaldzavalet",
     "web": "https://reinaldozavaleta12.wixsite.com/portafoliozg192161",
     "flipbook": "https://online.fliphtml5.com/Portafolio2025_RZ/vmev/",
-    "areas": [
-      "ilustracion",
-      "branding",
-      "editorial",
-      "social_media"
-    ],
+    "areas": ["ilustracion", "branding", "editorial", "social_media"],
     "slug": "reinaldo-zavaleta"
   },
   {
@@ -2422,12 +1740,7 @@
     "description": "Hola, soy Mar, diseñadora gráfica apasionada por la creatividad, el color y el mar. Disfruto dar vida a ideas a través del diseño y crear piezas visuales para redes sociales. Me encanta conectar con las personas por medio de la estética y los mensajes, construyendo comunidad y expresando mi esencia en cada proyecto que realizo.",
     "web": "https://www.canva.com/design/DAG09WMTNJU/c838IBec1RxoMSXHoxtwpg/edit?utm_content=DAG09WMTNJU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "flipbook": "https://heyzine.com/flip-book/7a43a27390.html",
-    "areas": [
-      "social_media",
-      "branding",
-      "uxui",
-      "packaging"
-    ],
+    "areas": ["social_media", "branding", "uxui", "packaging"],
     "slug": "maria-zepeda"
   }
 ]

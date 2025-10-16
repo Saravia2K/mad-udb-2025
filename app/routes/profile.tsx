@@ -14,14 +14,12 @@ import CATEGORIES from "@/assets/json/categories.json";
 import bg from "@/assets/images/bg-perfiles-homepage.svg";
 
 export const meta = ({ loaderData }: Route.MetaArgs) => {
-  const imageName = loaderData.slug.replaceAll("-", "_");
-
   return sharedMetatags([
     { title: `${loaderData.name} | MAD 2025` },
     { name: "description", content: loaderData.description },
     {
       property: "og:image",
-      content: `https://madudb2025.com/images/perfiles/${loaderData.areas[0]}/${imageName}_perfil.webp`,
+      content: `https://madudb2025.com${getPublicImageURL(loaderData as Profile, "perfil")}`,
     },
     { name: "og:description", content: loaderData.description },
   ]);
@@ -37,10 +35,9 @@ export const loader = ({ params }: Route.LoaderArgs) => {
 };
 
 export default function ProfilePage({ loaderData }: Route.ComponentProps) {
-  const { name, alias, slug, areas, flipbook, web, instagram, description } =
+  const { name, alias, areas, flipbook, web, instagram, description } =
     loaderData;
 
-  const imageName = slug.replaceAll("-", "_");
   return (
     <div className="relative w-screen overflow-hidden bg-[linear-gradient(138deg,#FF76FF_-7.42%,#601FFF_61.87%,#FBB03B_103.24%)]">
       <div className="lg:p- relative z-3 mx-[var(--general-x-padding)] mt-30 rounded-2xl bg-[linear-gradient(180deg,#601FFF_0%,rgba(167,153,248,0.00)_100%)] p-4 shadow-[0_4px_20px_0_rgba(255,255,255,0.10)_inset,_0_4px_50px_0_rgba(182,182,182,0.10)_inset] backdrop-blur-[25px] md:grid md:grid-cols-[35%_1fr] md:gap-16 lg:grid-cols-[40%_1fr] lg:p-11">

@@ -17,7 +17,7 @@ export default function ProfileCard({ profile }: ProfileCardProps) {
       <div className={styles["images-container"]}>
         <MainShape imageUrl={getPublicImageURL(profile, "trabajo1")} />
         <img
-          src={`/images/perfiles/${mainArea}/${imagesName}_perfil.webp`}
+          src={getPublicImageURL(profile, "perfil")}
           alt="profile"
           className={styles["profile-img"]}
         />
