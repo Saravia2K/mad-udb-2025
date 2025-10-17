@@ -35,7 +35,7 @@ export default function Profiles() {
         </p>
         <SearchInput onChange={setQuery} />
         <div className="grid gap-4 md:col-span-2 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 xl:grid-cols-4">
-          {profiles.slice(0, 12).map((p, i) => (
+          {profiles.slice(0, 12).map((p) => (
             <ProfileCard key={p.slug} profile={p} />
           ))}
         </div>
@@ -53,6 +53,7 @@ export default function Profiles() {
       <div className={styles.patrocinadores}>
         {PATROCINADORES.map((p) => (
           <Link
+            key={p.img}
             to={p.web}
             target="_blank"
             className="flex size-full items-center justify-center"
