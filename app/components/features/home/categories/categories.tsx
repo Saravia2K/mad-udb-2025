@@ -19,7 +19,7 @@ const CATEGORIES: Category[] = [
   {
     image: socialMedia,
     colors: ["#FFCEB6", "#FF7936", "#FF5F10"],
-    category: "social-media",
+    category: "social_media",
     label: "SOCIAL MEDIA",
     x: "15%",
   },
