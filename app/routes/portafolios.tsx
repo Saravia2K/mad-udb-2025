@@ -5,13 +5,10 @@ import SearchInput from "@/components/common/search-input";
 import ProfileCard from "@/components/common/profile-card";
 import useProfiles from "@/hooks/use-profiles";
 import sharedMetatags from "@/lib/utils/shared-metatags";
-import ImagesPreload from "@/lib/utils/images-preload";
 
 import bg from "@/assets/images/bg-perfiles-homepage.svg";
 
 export const meta = () => sharedMetatags([{ title: "Portafolios | MAD 2025" }]);
-
-export const links = () => ImagesPreload();
 
 export default function PortafoliosPage() {
   const [searchParams] = useSearchParams();

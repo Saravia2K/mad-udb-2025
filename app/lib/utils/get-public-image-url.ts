@@ -1,5 +1,9 @@
 import type { Profile } from "../types";
+import { VITE_FILE_STORAGE_PATH } from "@/env";
 
+import profileFallback from "@/assets/images/fallbacks/fallback_perfil.webp";
+import mockup1Fallback from "@/assets/images/fallbacks/fallback_trabajo1.webp";
+import mockup2Fallback from "@/assets/images/fallbacks/fallback_trabajo2.webp";
 import FALLBACKS from "@/assets/json/fallbacks.json";
 
 export default function getPublicImageURL(
@@ -12,9 +16,11 @@ export default function getPublicImageURL(
   if (image == "perfil") {
     const { areas } = profile;
 
-    const imagePath = `/images/perfiles/${areas[0]}/${imageName}_perfil.webp`;
+    const imagePath = `profiles/${areas[0]}/${imageName}_perfil.webp`;
     const isFallback = FALLBACKS.profile.some((p) => p == slug);
-    return isFallback ? FALLBACKS_PATH.profile : imagePath;
+    return isFallback
+      ? FALLBACKS_PATH.profile
+      : `${VITE_FILE_STORAGE_PATH}/${imagePath}`;
   }
 
   const folders = {
@@ -22,12 +28,15 @@ export default function getPublicImageURL(
     trabajo2: "mockup2",
   };
   const isFallback = FALLBACKS.mockups.some((m) => m == slug);
-  const mockupPath = `/images/mockups/${folders[image]}/${imageName}_${image}.webp`;
-  return isFallback ? FALLBACKS_PATH[image] : mockupPath;
+  const mockupPath = `mockups/${folders[image]}/${imageName}_${image}.webp`;
+  console.log(`${VITE_FILE_STORAGE_PATH}/${mockupPath}`);
+  return isFallback
+    ? FALLBACKS_PATH[image]
+    : `${VITE_FILE_STORAGE_PATH}/${mockupPath}`;
 }
 
 const FALLBACKS_PATH = {
-  profile: "/images/perfiles/fallback_perfil.webp",
-  trabajo1: "/images/mockups/fallback_trabajo1.webp",
-  trabajo2: "/images/mockups/fallback_trabajo2.webp",
+  profile: profileFallback,
+  trabajo1: mockup1Fallback,
+  trabajo2: mockup2Fallback,
 };
